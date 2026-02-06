@@ -11,7 +11,7 @@ export default function N8nChat() {
 
         createChat({
           webhookUrl:
-            'https://northaisolutions.app.n8n.cloud/webhook/ec59a35c-41c4-47ec-b96f-58593ba27bcc/chat',
+            'https://northaisolutions.app.n8n.cloud/webhook/0645ff08-6505-49bd-925e-8feaaec34ab6/chat',
           mode: 'window',
           chatInputKey: 'chatInput',
           chatSessionKey: 'sessionId',
