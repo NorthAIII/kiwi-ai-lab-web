@@ -2,7 +2,7 @@ import { useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import FAB from '../ui/FAB'
+import N8nChat from '../ui/N8nChat'
 
 const pageTransition = {
   initial: { opacity: 0, y: 20 },
@@ -37,7 +37,7 @@ export default function Layout({ children }) {
       </AnimatePresence>
 
       <Footer />
-      <FAB />
+      <N8nChat />
     </div>
   )
 }
