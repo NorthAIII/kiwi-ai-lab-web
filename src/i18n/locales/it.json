@@ -7,6 +7,7 @@
   "nav": {
     "home": "Home",
     "services": "Servizi",
+    "pricing": "Prezzi",
     "studio": "Studio",
     "contact": "Contatti",
     "getStarted": "Inizia Ora"
@@ -171,6 +172,78 @@
       "email": "hello@kiwiai.lab",
       "response": "Risposta generalmente entro 24 ore",
       "locations": "Al servizio di clienti in tutto il mondo da Istanbul"
+    }
+  },
+
+  "pricing": {
+    "badge": "Prezzi a Zero Rischi",
+    "title": "Investimento Trasparente, Risultati Misurabili",
+    "subtitle": "Nessun costo nascosto. Nessun vincolo a lungo termine. Ogni piano include la nostra piena competenza, infrastruttura production-grade e un impegno concreto per il Suo successo — o Le restituiamo l'intero importo.",
+    "popular": "Il Più Scelto",
+    "tiers": {
+      "starter": {
+        "name": "Starter",
+        "price": "$497",
+        "period": "/mese",
+        "description": "Ideale per le aziende che compiono il primo passo verso il customer engagement potenziato dall'AI.",
+        "features": [
+          "Voice Bot OPPURE Chat Bot",
+          "500 interazioni al mese",
+          "Operatività in orario lavorativo",
+          "Supporto via email",
+          "Report mensile sulle prestazioni"
+        ],
+        "cta": "Inizia Ora"
+      },
+      "growth": {
+        "name": "Growth",
+        "price": "$997",
+        "period": "/mese",
+        "description": "Per le aziende in crescita pronte a scalare le proprie capacità AI su più canali.",
+        "features": [
+          "Voice Bot + Chat Bot + SMS Bot",
+          "2.000 interazioni al mese",
+          "Operatività autonoma 24/7",
+          "Supporto prioritario con SLA di 4 ore",
+          "Integrazioni base con CRM e strumenti aziendali",
+          "Dashboard analitica settimanale"
+        ],
+        "cta": "Scala Ora"
+      },
+      "scale": {
+        "name": "Scale",
+        "price": "$1,997",
+        "period": "/mese",
+        "description": "Automazione AI a spettro completo per le imprese che esigono la massima efficienza operativa.",
+        "features": [
+          "Deployment omnicanale completo",
+          "Interazioni illimitate",
+          "Marketing automation predittivo",
+          "Integrazioni enterprise complete",
+          "Success manager dedicato",
+          "Fine-tuning personalizzato del modello"
+        ],
+        "cta": "Passi all'Enterprise"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "$4,997",
+        "period": "+/mese",
+        "description": "Ecosistemi AI su misura per operazioni multi-sede che richiedono un servizio white-glove.",
+        "features": [
+          "Deployment multi-sede",
+          "Training personalizzato del modello AI",
+          "Opzione soluzione white-label",
+          "Accesso API completo ed endpoint personalizzati",
+          "Setup on-site e formazione del team",
+          "Revisioni strategiche trimestrali"
+        ],
+        "cta": "Ci Contatti"
+      }
+    },
+    "guarantee": {
+      "title": "La Garanzia Zero Rischi",
+      "description": "Garantiamo ogni soluzione che realizziamo. Se non riscontra un miglioramento misurabile nelle Sue operazioni entro i primi 30 giorni, Le rimborseremo integralmente l'investimento — senza domande. È questa la fiducia che riponiamo in ciò che costruiamo."
     }
   },
 

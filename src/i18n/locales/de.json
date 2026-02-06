@@ -7,6 +7,7 @@
   "nav": {
     "home": "Startseite",
     "services": "Leistungen",
+    "pricing": "Preise",
     "studio": "Studio",
     "contact": "Kontakt",
     "getStarted": "Jetzt starten"
@@ -171,6 +172,78 @@
       "email": "hello@kiwiai.lab",
       "response": "Typische Antwortzeit innerhalb von 24 Stunden",
       "locations": "Weltweit t\u00e4tig mit Sitz in Istanbul"
+    }
+  },
+
+  "pricing": {
+    "badge": "Null-Risiko-Preismodell",
+    "title": "Transparente Investition, messbare Ergebnisse",
+    "subtitle": "Keine versteckten Geb\u00fchren. Keine langfristigen Bindungen. Jedes Paket umfasst unsere volle Expertise, produktionsreife Infrastruktur und unser Versprechen f\u00fcr Ihren Erfolg \u2014 oder Ihr Geld zur\u00fcck.",
+    "popular": "Beliebteste Wahl",
+    "tiers": {
+      "starter": {
+        "name": "Starter",
+        "price": "$497",
+        "period": "/Mo.",
+        "description": "Ideal f\u00fcr Unternehmen, die den ersten Schritt in KI-gest\u00fctzte Kundeninteraktion wagen.",
+        "features": [
+          "Voice- ODER Chat-Bot",
+          "500 Interaktionen pro Monat",
+          "Betrieb w\u00e4hrend der Gesch\u00e4ftszeiten",
+          "E-Mail-Support",
+          "Monatlicher Performance-Bericht"
+        ],
+        "cta": "Jetzt starten"
+      },
+      "growth": {
+        "name": "Growth",
+        "price": "$997",
+        "period": "/Mo.",
+        "description": "F\u00fcr wachsende Unternehmen, die ihre KI-Kapazit\u00e4ten kanalübergreifend skalieren m\u00f6chten.",
+        "features": [
+          "Voice- + Chat- + SMS-Bots",
+          "2.000 Interaktionen pro Monat",
+          "Autonomer 24/7-Betrieb",
+          "Priorisierter Support mit 4-Stunden-SLA",
+          "CRM- & Tool-Basisintegrationen",
+          "W\u00f6chentliches Analytics-Dashboard"
+        ],
+        "cta": "Jetzt skalieren"
+      },
+      "scale": {
+        "name": "Scale",
+        "price": "$1,997",
+        "period": "/Mo.",
+        "description": "Umfassende KI-Automatisierung f\u00fcr Unternehmen, die maximale operative Effizienz anstreben.",
+        "features": [
+          "Vollst\u00e4ndiges Omnichannel-Deployment",
+          "Unbegrenzte Interaktionen",
+          "Pr\u00e4diktive Marketing-Automatisierung",
+          "Vollst\u00e4ndige Enterprise-Integrationen",
+          "Dedizierter Success Manager",
+          "Individuelles Model-Fine-Tuning"
+        ],
+        "cta": "Enterprise starten"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "$4,997",
+        "period": "+/Mo.",
+        "description": "Ma\u00dfgeschneiderte KI-\u00d6kosysteme f\u00fcr Mehrstandort-Betriebe mit h\u00f6chsten Anspr\u00fcchen.",
+        "features": [
+          "Mehrstandort-Deployment",
+          "Training individueller KI-Modelle",
+          "White-Label-L\u00f6sung als Option",
+          "Vollst\u00e4ndiger API-Zugang & individuelle Endpoints",
+          "Vor-Ort-Einrichtung & Teamschulung",
+          "Vierteljährliche Strategie-Reviews"
+        ],
+        "cta": "Kontakt aufnehmen"
+      }
+    },
+    "guarantee": {
+      "title": "Die Null-Risiko-Garantie",
+      "description": "Wir stehen hinter jeder L\u00f6sung, die wir liefern. Sollten Sie innerhalb der ersten 30 Tage keine messbare Verbesserung Ihrer Gesch\u00e4ftsprozesse feststellen, erstatten wir Ihre Investition vollst\u00e4ndig zur\u00fcck \u2014 ohne R\u00fcckfragen. So \u00fcberzeugt sind wir von dem, was wir entwickeln."
     }
   },
 

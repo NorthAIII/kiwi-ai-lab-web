@@ -143,7 +143,7 @@ export default function Services() {
           >
             <Link
               to="/contact"
-              className="group inline-flex items-center gap-2.5 px-8 py-4 text-sm font-semibold text-dark-950 bg-gradient-to-r from-kiwi-500 to-kiwi-600 rounded-2xl hover:from-kiwi-400 hover:to-kiwi-500 transition-all duration-300 shadow-xl shadow-kiwi-500/20 hover:shadow-kiwi-500/30"
+              className="group inline-flex items-center gap-2.5 px-8 py-4 text-sm font-semibold text-white bg-gradient-to-r from-kiwi-600 to-kiwi-700 rounded-2xl hover:from-kiwi-500 hover:to-kiwi-600 transition-all duration-300 shadow-xl shadow-kiwi-500/20 hover:shadow-kiwi-500/30"
             >
               {t('services.cta')}
               <ArrowRight size={16} className="group-hover:translate-x-0.5 transition-transform duration-200" />

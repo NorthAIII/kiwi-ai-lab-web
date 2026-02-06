@@ -6,6 +6,7 @@ import Layout from './components/layout/Layout'
 
 const Home = lazy(() => import('./pages/Home'))
 const Services = lazy(() => import('./pages/Services'))
+const Pricing = lazy(() => import('./pages/Pricing'))
 const Studio = lazy(() => import('./pages/Studio'))
 const Contact = lazy(() => import('./pages/Contact'))
 
@@ -37,6 +38,7 @@ export default function App() {
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/pricing" element={<Pricing />} />
             <Route path="/studio" element={<Studio />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

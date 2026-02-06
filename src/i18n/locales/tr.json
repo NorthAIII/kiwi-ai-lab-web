@@ -7,6 +7,7 @@
   "nav": {
     "home": "Ana Sayfa",
     "services": "Hizmetler",
+    "pricing": "Fiyatlandırma",
     "studio": "Stüdyo",
     "contact": "İletişim",
     "getStarted": "Başlayalım"
@@ -171,6 +172,78 @@
       "email": "hello@kiwiai.lab",
       "response": "Genellikle 24 saat içinde yanıt",
       "locations": "İstanbul merkezli, dünya genelinde hizmet"
+    }
+  },
+
+  "pricing": {
+    "badge": "Sıfır Risk Fiyatlandırma",
+    "title": "Şeffaf Yatırım, Ölçülebilir Getiri",
+    "subtitle": "Gizli ücret yok. Uzun vadeli bağlayıcı sözleşme yok. Her plan; tüm uzmanlığımızı, üretim düzeyinde altyapıyı ve başarınıza olan taahhüdümüzü kapsar — aksi halde paranız iade edilir.",
+    "popular": "En Popüler",
+    "tiers": {
+      "starter": {
+        "name": "Starter",
+        "price": "$497",
+        "period": "/ay",
+        "description": "Yapay zeka destekli müşteri etkileşimine ilk adımını atan işletmeler için ideal.",
+        "features": [
+          "Sesli VEYA Yazılı Bot",
+          "Aylık 500 etkileşim",
+          "Mesai saatleri içinde çalışma",
+          "E-posta desteği",
+          "Aylık performans raporu"
+        ],
+        "cta": "Başlayın"
+      },
+      "growth": {
+        "name": "Growth",
+        "price": "$997",
+        "period": "/ay",
+        "description": "AI yeteneklerini birden fazla kanalda ölçeklendirmeye hazır, büyüyen işletmeler için.",
+        "features": [
+          "Sesli + Yazılı + SMS Botları",
+          "Aylık 2.000 etkileşim",
+          "7/24 otonom çalışma",
+          "4 saatlik SLA ile öncelikli destek",
+          "Temel CRM ve araç entegrasyonları",
+          "Haftalık analitik panosu"
+        ],
+        "cta": "Şimdi Ölçeklenin"
+      },
+      "scale": {
+        "name": "Scale",
+        "price": "$1,997",
+        "period": "/ay",
+        "description": "En üst düzey operasyonel verimlilik talep eden kurumlar için tam kapsamlı AI otomasyonu.",
+        "features": [
+          "Tam çok kanallı dağıtım",
+          "Sınırsız etkileşim",
+          "Öngörücü pazarlama otomasyonu",
+          "Tam kurumsal entegrasyonlar",
+          "Özel başarı yöneticisi",
+          "Özel model ince ayarı"
+        ],
+        "cta": "Kurumsal Geçiş"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "$4,997",
+        "period": "+/ay",
+        "description": "Birden fazla lokasyonda faaliyet gösteren ve özel ilgi gerektiren operasyonlar için kişiye özel AI ekosistemleri.",
+        "features": [
+          "Çoklu lokasyon dağıtımı",
+          "Özel AI model eğitimi",
+          "White-label çözüm seçeneği",
+          "Tam API erişimi ve özel endpoint'ler",
+          "Yerinde kurulum ve ekip eğitimi",
+          "Üç aylık strateji değerlendirmeleri"
+        ],
+        "cta": "Bizimle İletişime Geçin"
+      }
+    },
+    "guarantee": {
+      "title": "Sıfır Risk Garantisi",
+      "description": "Sunduğumuz her çözümün arkasında duruyoruz. İlk 30 gün içinde operasyonlarınızda ölçülebilir bir iyileşme görmezseniz, yatırımınızı eksiksiz iade ederiz — hiçbir soru sorulmaz. İnşa ettiğimiz çözümlere olan güvenimiz bu denli büyük."
     }
   },
 

@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { supportedLanguages } from '../../i18n/i18n.js'
 import { Globe, ArrowUpRight } from 'lucide-react'
+import KiwiLogo from '../ui/KiwiLogo'
 
 export default function Footer() {
   const { t, i18n } = useTranslation()
@@ -21,10 +22,8 @@ export default function Footer() {
         <div className="py-12 lg:py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
           {/* Brand Column */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <div className="flex items-center gap-2.5 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-kiwi-500 to-kiwi-700 flex items-center justify-center">
-                <span className="text-dark-950 font-extrabold text-xs">K</span>
-              </div>
+            <div className="flex items-center gap-2 mb-4">
+              <KiwiLogo size={28} />
               <span className="text-white font-bold text-sm">
                 Kiwi<span className="text-kiwi-500">AI</span>{' '}
                 <span className="text-dark-300 font-medium">Lab</span>
@@ -41,7 +40,7 @@ export default function Footer() {
               {t('footer.navigation')}
             </h4>
             <ul className="space-y-2.5">
-              {['home', 'services', 'studio', 'contact'].map((key) => (
+              {['home', 'services', 'pricing', 'studio', 'contact'].map((key) => (
                 <li key={key}>
                   <Link
                     to={key === 'home' ? '/' : `/${key}`}

@@ -7,6 +7,7 @@
   "nav": {
     "home": "Home",
     "services": "Services",
+    "pricing": "Pricing",
     "studio": "Studio",
     "contact": "Contact",
     "getStarted": "Get Started"
@@ -171,6 +172,78 @@
       "email": "hello@kiwiai.lab",
       "response": "Typical response within 24 hours",
       "locations": "Serving clients globally from Istanbul"
+    }
+  },
+
+  "pricing": {
+    "badge": "Zero Risk Pricing",
+    "title": "Transparent Investment, Measurable Returns",
+    "subtitle": "No hidden fees. No long-term lock-ins. Every plan includes our full expertise, production-grade infrastructure, and a commitment to your success — or your money back.",
+    "popular": "Most Popular",
+    "tiers": {
+      "starter": {
+        "name": "Starter",
+        "price": "$497",
+        "period": "/mo",
+        "description": "Perfect for businesses taking their first step into AI-powered customer engagement.",
+        "features": [
+          "Voice OR Chat Bot",
+          "500 interactions per month",
+          "Business hours operation",
+          "Email support",
+          "Monthly performance report"
+        ],
+        "cta": "Get Started"
+      },
+      "growth": {
+        "name": "Growth",
+        "price": "$997",
+        "period": "/mo",
+        "description": "For growing businesses ready to scale their AI capabilities across multiple channels.",
+        "features": [
+          "Voice + Chat + SMS Bots",
+          "2,000 interactions per month",
+          "24/7 autonomous operation",
+          "Priority support with 4-hour SLA",
+          "Basic CRM & tool integrations",
+          "Weekly analytics dashboard"
+        ],
+        "cta": "Scale Now"
+      },
+      "scale": {
+        "name": "Scale",
+        "price": "$1,997",
+        "period": "/mo",
+        "description": "Full-spectrum AI automation for enterprises that demand peak operational efficiency.",
+        "features": [
+          "Full omnichannel deployment",
+          "Unlimited interactions",
+          "Predictive marketing automation",
+          "Full enterprise integrations",
+          "Dedicated success manager",
+          "Custom model fine-tuning"
+        ],
+        "cta": "Go Enterprise"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "$4,997",
+        "period": "+/mo",
+        "description": "Bespoke AI ecosystems for multi-location operations requiring white-glove delivery.",
+        "features": [
+          "Multi-location deployment",
+          "Custom AI model training",
+          "White-label solution option",
+          "Full API access & custom endpoints",
+          "On-site setup & team training",
+          "Quarterly strategy reviews"
+        ],
+        "cta": "Contact Us"
+      }
+    },
+    "guarantee": {
+      "title": "The Zero Risk Guarantee",
+      "description": "We stand behind every solution we deliver. If you don't see measurable improvement in your operations within the first 30 days, we'll refund your investment in full — no questions asked. That's how confident we are in what we build."
     }
   },
 

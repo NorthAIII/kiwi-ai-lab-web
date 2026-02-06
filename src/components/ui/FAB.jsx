@@ -106,7 +106,7 @@ export default function FAB() {
       <motion.button
         onClick={() => setIsOpen(!isOpen)}
         whileTap={{ scale: 0.92 }}
-        className={`relative w-14 h-14 rounded-2xl bg-gradient-to-br from-kiwi-500 to-kiwi-600 text-dark-950 flex items-center justify-center shadow-lg shadow-kiwi-500/25 hover:shadow-kiwi-500/40 transition-shadow duration-300 cursor-pointer ${
+        className={`relative w-14 h-14 rounded-2xl bg-gradient-to-br from-kiwi-500 to-kiwi-700 text-white flex items-center justify-center shadow-lg shadow-kiwi-500/25 hover:shadow-kiwi-500/40 transition-shadow duration-300 cursor-pointer ${
           isFishing && !isOpen ? 'animate-fishing' : ''
         }`}
       >

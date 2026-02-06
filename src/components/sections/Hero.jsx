@@ -91,7 +91,7 @@ export default function Hero() {
           >
             <Link
               to="/contact"
-              className="group relative inline-flex items-center gap-2.5 px-7 py-3.5 text-sm font-semibold text-dark-950 bg-gradient-to-r from-kiwi-500 to-kiwi-600 rounded-2xl hover:from-kiwi-400 hover:to-kiwi-500 transition-all duration-300 shadow-xl shadow-kiwi-500/20 hover:shadow-kiwi-500/30"
+              className="group relative inline-flex items-center gap-2.5 px-7 py-3.5 text-sm font-semibold text-white bg-gradient-to-r from-kiwi-600 to-kiwi-700 rounded-2xl hover:from-kiwi-500 hover:to-kiwi-600 transition-all duration-300 shadow-xl shadow-kiwi-500/20 hover:shadow-kiwi-500/30"
             >
               {t('hero.cta')}
               <ArrowRight

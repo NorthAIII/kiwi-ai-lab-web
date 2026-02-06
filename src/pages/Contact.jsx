@@ -191,7 +191,7 @@ export default function Contact() {
                 <button
                   type="submit"
                   disabled={status === 'submitting'}
-                  className="group w-full inline-flex items-center justify-center gap-2.5 px-7 py-3.5 text-sm font-semibold text-dark-950 bg-gradient-to-r from-kiwi-500 to-kiwi-600 rounded-xl hover:from-kiwi-400 hover:to-kiwi-500 transition-all duration-300 shadow-lg shadow-kiwi-500/20 hover:shadow-kiwi-500/30 disabled:opacity-60 disabled:cursor-not-allowed cursor-pointer"
+                  className="group w-full inline-flex items-center justify-center gap-2.5 px-7 py-3.5 text-sm font-semibold text-white bg-gradient-to-r from-kiwi-600 to-kiwi-700 rounded-xl hover:from-kiwi-500 hover:to-kiwi-600 transition-all duration-300 shadow-lg shadow-kiwi-500/20 hover:shadow-kiwi-500/30 disabled:opacity-60 disabled:cursor-not-allowed cursor-pointer"
                 >
                   {status === 'submitting' ? (
                     <>
