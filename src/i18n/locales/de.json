@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "title": "Kiwi AI Lab \u2014 Ma\u00dfgeschneiderte KI-L\u00f6sungen f\u00fcr vision\u00e4re Unternehmen",
+    "description": "Kiwi AI Lab ist ein spezialisiertes Studio f\u00fcr k\u00fcnstliche Intelligenz. Wir entwickeln individuelle LLM-Integrationen, autonome Workflows und ganzheitliche KI-Strategien f\u00fcr Unternehmen, die sich nicht mit dem Gew\u00f6hnlichen zufriedengeben."
+  },
+
+  "nav": {
+    "home": "Startseite",
+    "services": "Leistungen",
+    "studio": "Studio",
+    "contact": "Kontakt",
+    "getStarted": "Jetzt starten"
+  },
+
+  "hero": {
+    "badge": "Boutique-KI-Studio",
+    "titleLine1": "Automatisieren",
+    "titleLine2": "mit Intelligenz.",
+    "subtitle": "Wir implementieren nicht einfach KI \u2014 wir konzipieren intelligente \u00d6kosysteme. Von der strategischen Beratung bis zum produktionsreifen Deployment liefert Kiwi AI Lab ma\u00dfgeschneiderte Automatisierungsl\u00f6sungen, die grundlegend ver\u00e4ndern, wie Ihr Unternehmen operiert, entscheidet und skaliert.",
+    "cta": "Discovery-Gespr\u00e4ch vereinbaren",
+    "ctaSecondary": "Unsere Leistungen entdecken",
+    "stats": {
+      "projects": "Umgesetzte Projekte",
+      "satisfaction": "Kundenzufriedenheit",
+      "uptime": "Systemverf\u00fcgbarkeit",
+      "languages": "Unterst\u00fctzte Sprachen"
+    }
+  },
+
+  "approach": {
+    "badge": "Unsere Philosophie",
+    "title": "Der Boutique-Ansatz",
+    "subtitle": "In einer Welt standardisierter KI-Vorlagen gehen wir einen grundlegend anderen Weg. Jedes Engagement beginnt mit tiefgreifendem Verst\u00e4ndnis und endet mit messbarer Transformation.",
+    "cards": {
+      "discover": {
+        "title": "Verstehen & Definieren",
+        "description": "Jede Partnerschaft beginnt mit einer intensiven Discovery-Phase \u2014 wir kartieren Ihre operative Landschaft, identifizieren Automatisierungspotenziale mit h\u00f6chster Wirkung und entwickeln eine strategische KI-Roadmap, die exklusiv auf Ihre Unternehmensziele zugeschnitten ist."
+      },
+      "architect": {
+        "title": "Konzipieren & Entwickeln",
+        "description": "Unsere Senior Engineers entwerfen und bauen individuelle KI-Architekturen von Grund auf. Keine Vorlagen, keine Abk\u00fcrzungen. Jede Integration \u2014 von Retrieval-Augmented-Generation-Pipelines bis hin zu autonomen Agenten-Workflows \u2014 wird pr\u00e4zise f\u00fcr Ihre spezifischen Anforderungen entwickelt."
+      },
+      "deploy": {
+        "title": "Bereitstellen & Weiterentwickeln",
+        "description": "Das Deployment ist erst der Anfang. Wir stellen produktionsreife Infrastruktur, kontinuierliches Performance-Monitoring und iterative Optimierung bereit, damit Ihre KI-Systeme nicht nur starten \u2014 sondern im Laufe der Zeit exponentiell an Wert gewinnen."
+      }
+    }
+  },
+
+  "techStack": {
+    "badge": "Technologie",
+    "title": "Gebaut auf dem, was z\u00e4hlt",
+    "subtitle": "Wir setzen auf die fortschrittlichsten Modelle und Frameworks \u2014 nicht weil sie im Trend liegen, sondern weil sie Ergebnisse liefern. Unsere Technologieentscheidungen folgen einem einzigen Kriterium: Was l\u00f6st Ihr Problem am effektivsten.",
+    "categories": {
+      "models": "Foundation Models",
+      "frameworks": "Frameworks & Orchestrierung",
+      "infrastructure": "Cloud & Infrastruktur",
+      "integrations": "Enterprise-Integrationen"
+    }
+  },
+
+  "services": {
+    "badge": "Unsere Leistungen",
+    "title": "Pr\u00e4zise KI-Dienstleistungen",
+    "subtitle": "Drei Kompetenzpfeiler, vereint durch eine einzige Mission: K\u00fcnstliche Intelligenz zu Ihrem wertvollsten operativen Asset zu machen.",
+    "items": {
+      "strategy": {
+        "title": "KI-Strategie & Beratung",
+        "description": "Navigieren Sie die KI-Landschaft mit Sicherheit. Wir f\u00fchren umfassende Analysen Ihrer bestehenden Workflows durch, identifizieren Automatisierungschancen mit dem h\u00f6chsten ROI und liefern eine klare, umsetzbare KI-Strategie \u2014 inklusive Technologieauswahl, Zeitplanung und messbaren Erfolgskriterien.",
+        "features": [
+          "Operative KI-Reifegrad-Analyse",
+          "Technologie-Stack-Beratung & Auswahl",
+          "ROI-gesteuerte Implementierungs-Roadmap",
+          "Executive KI-Kompetenz-Workshops",
+          "Wettbewerbsanalyse & Marktpositionierung"
+        ]
+      },
+      "llm": {
+        "title": "Individuelle LLM- & RAG-Integrationen",
+        "description": "Standardisierte Chatbots sind nicht unser Metier. Wir entwickeln anspruchsvolle, kontextbewusste KI-Systeme auf Basis von Retrieval-Augmented Generation \u2014 Systeme, die Ihre propriet\u00e4ren Daten verstehen, die Sprache Ihrer Marke sprechen und Antworten mit der Pr\u00e4zision und Nuance liefern, die Ihre Kunden erwarten.",
+        "features": [
+          "Aufbau unternehmensweiter Wissensdatenbanken",
+          "Multimodale RAG-Pipeline-Entwicklung",
+          "Individuelles Fine-Tuning & Prompt Engineering",
+          "Semantische Suche & Intelligentes Retrieval",
+          "Halluzinationsminimierung & Output-Qualit\u00e4tssicherung"
+        ]
+      },
+      "automation": {
+        "title": "Autonome Business-Workflows",
+        "description": "Transformieren Sie Ihre Gesch\u00e4ftsprozesse mit selbstorchestrierenden KI-Systemen, die nicht nur reagieren \u2014 sondern antizipieren, entscheiden und ausf\u00fchren. Von Multi-Agenten-Architekturen, die komplexe Prozesse end-to-end steuern, bis hin zu intelligenten Pipelines, die manuelle Engp\u00e4sse eliminieren \u2014 wir bauen die Zukunft, die Ihre Wettbewerber noch nicht einmal erahnen.",
+        "features": [
+          "Multi-Agenten-Systemarchitektur",
+          "Intelligente Dokumentenverarbeitungs-Pipelines",
+          "Automatisierte Entscheidungssysteme mit Human-in-the-Loop",
+          "CRM- & ERP-KI-Integrationsschicht",
+          "Echtzeit-Analytik & pr\u00e4diktive Prozesssteuerung"
+        ]
+      }
+    },
+    "cta": "Ihr Projekt besprechen"
+  },
+
+  "studio": {
+    "badge": "Wer wir sind",
+    "title": "Das Labor hinter der Intelligenz",
+    "subtitle": "Kiwi AI Lab ist keine Fabrik \u2014 es ist ein Studio. Wir sind ein bewusst kleines Team aus Senior-KI-Engineers, Strategen und Architekten, die Tiefe \u00fcber Breite stellen. Jedes Projekt erh\u00e4lt unsere volle, ungeteilte Aufmerksamkeit.",
+    "philosophy": {
+      "title": "Unsere Philosophie",
+      "description": "Wir sind \u00fcberzeugt, dass die wirkungsvollsten KI-L\u00f6sungen nicht durch Skalierung entstehen, sondern durch Pr\u00e4zision. Unser Boutique-Modell stellt sicher, dass jeder Kunde direkt mit den K\u00f6pfen arbeitet, die seine Systeme entwickeln \u2014 keine Account-Manager, keine \u00dcbergaben, keine Verw\u00e4sserung der Vision. Das ist KI, handgefertigt.",
+      "principles": [
+        {
+          "title": "Ma\u00dfarbeit statt Massenware",
+          "description": "Jede L\u00f6sung wird von Grund auf f\u00fcr Ihren spezifischen Kontext entwickelt. Wir recyceln keine Architekturen \u2014 wir erschaffen sie."
+        },
+        {
+          "title": "Transparenz als Standard",
+          "description": "Sie verstehen jede Entscheidung, die wir treffen, jede Technologie, die wir w\u00e4hlen, und jeden Kompromiss, den wir abw\u00e4gen. Ihre KI ist niemals eine Blackbox."
+        },
+        {
+          "title": "Partnerschaft statt Auftragsvergabe",
+          "description": "Wir verankern uns in Ihrer unternehmerischen Realit\u00e4t. Wir sind erfolgreich, wenn Sie erfolgreich sind \u2014 und diese Ausrichtung bestimmt alles, was wir tun."
+        },
+        {
+          "title": "Konsequente Iteration",
+          "description": "Die besten KI-Systeme sind lebende Systeme. Wir entwickeln f\u00fcr Evolution und stellen sicher, dass Ihre Investition kontinuierlich an Leistungsf\u00e4higkeit und Wert gewinnt."
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Ganzheitliches Delivery-Modell",
+      "description": "Vom ersten Gespr\u00e4ch bis zum produktiven Deployment und dar\u00fcber hinaus \u2014 wir verantworten jede Phase der Reise. Unser integriertes Delivery-Modell eliminiert die L\u00fccken, Missverst\u00e4ndnisse und Qualit\u00e4tsverluste, die fragmentierte Lieferantenbeziehungen kennzeichnen.",
+      "phases": [
+        { "label": "Discovery", "description": "Tiefgehende Analyse Ihrer Prozesse, Ziele und Rahmenbedingungen" },
+        { "label": "Architektur", "description": "Technisches Design, Modellauswahl und System-Blueprinting" },
+        { "label": "Entwicklung", "description": "Agile Build-Sprints mit kontinuierlicher Kundeneinbindung" },
+        { "label": "Deployment", "description": "Produktivstart mit Infrastruktur-H\u00e4rtung und Monitoring" },
+        { "label": "Evolution", "description": "Fortlaufende Optimierung, Retraining und Erweiterung der F\u00e4higkeiten" }
+      ]
+    }
+  },
+
+  "contact": {
+    "badge": "Sprechen wir miteinander",
+    "title": "Ein Gespr\u00e4ch beginnen",
+    "subtitle": "Jede transformative KI-Reise beginnt mit einem einzigen Gespr\u00e4ch. Ob Sie eine konkrete Herausforderung im Blick haben oder einfach erkunden m\u00f6chten, was m\u00f6glich ist \u2014 wir sind f\u00fcr Sie da.",
+    "form": {
+      "name": "Vollst\u00e4ndiger Name",
+      "namePlaceholder": "Max Mustermann",
+      "email": "Gesch\u00e4ftliche E-Mail",
+      "emailPlaceholder": "max@unternehmen.de",
+      "company": "Unternehmen",
+      "companyPlaceholder": "Unternehmen GmbH",
+      "service": "Interessengebiet",
+      "servicePlaceholder": "Leistung ausw\u00e4hlen",
+      "serviceOptions": {
+        "strategy": "KI-Strategie & Beratung",
+        "llm": "Individuelle LLM- & RAG-Integration",
+        "automation": "Autonome Business-Workflows",
+        "other": "Etwas v\u00f6llig Anderes"
+      },
+      "message": "Erz\u00e4hlen Sie uns von Ihrer Vision",
+      "messagePlaceholder": "Beschreiben Sie Ihre aktuellen Herausforderungen, Ziele oder die Transformation, die Sie sich vorstellen...",
+      "submit": "Anfrage senden",
+      "submitting": "Wird gesendet...",
+      "success": "Ihre Anfrage ist bei uns eingegangen. Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt \u00fcber unsere Kontaktkan\u00e4le."
+    },
+    "info": {
+      "title": "Weitere Kontaktm\u00f6glichkeiten",
+      "email": "hello@kiwiai.lab",
+      "response": "Typische Antwortzeit innerhalb von 24 Stunden",
+      "locations": "Weltweit t\u00e4tig mit Sitz in Istanbul"
+    }
+  },
+
+  "fab": {
+    "tooltip": "Kontakt aufnehmen",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "email": "E-Mail",
+    "linkedin": "LinkedIn"
+  },
+
+  "footer": {
+    "description": "Ein Boutique-KI-Studio, das ma\u00dfgeschneiderte intelligente Systeme f\u00fcr Unternehmen entwickelt, die mehr als gew\u00f6hnliche Automatisierung verlangen.",
+    "navigation": "Navigation",
+    "services": "Leistungen",
+    "connect": "Verbinden",
+    "language": "Sprache",
+    "rights": "Alle Rechte vorbehalten.",
+    "tagline": "Mit Pr\u00e4zision gefertigt. Angetrieben von Intelligenz."
+  }
+}

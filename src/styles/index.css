@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+/* ===== Kiwi AI Lab — Design Tokens ===== */
+@theme {
+  --color-kiwi-50: #f0fdf0;
+  --color-kiwi-100: #dbfde0;
+  --color-kiwi-200: #b9f9c3;
+  --color-kiwi-300: #84f196;
+  --color-kiwi-400: #4ade60;
+  --color-kiwi-500: #a3e635;
+  --color-kiwi-600: #84cc16;
+  --color-kiwi-700: #65a30d;
+  --color-kiwi-800: #4d7c0f;
+  --color-kiwi-900: #365314;
+
+  --color-dark-950: #09090b;
+  --color-dark-900: #0c0c0f;
+  --color-dark-800: #131316;
+  --color-dark-700: #1a1a1f;
+  --color-dark-600: #232329;
+  --color-dark-500: #2e2e36;
+  --color-dark-400: #3f3f48;
+  --color-dark-300: #63636e;
+  --color-dark-200: #8e8e99;
+  --color-dark-100: #b4b4bd;
+
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+/* ===== Base Layer ===== */
+@layer base {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-dark-500) transparent;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-dark-950);
+    color: var(--color-dark-100);
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: color-mix(in srgb, var(--color-kiwi-500) 30%, transparent);
+    color: white;
+  }
+
+  /* RTL Support */
+  [dir="rtl"] {
+    text-align: right;
+  }
+}
+
+/* ===== Component Layer ===== */
+@layer components {
+  /* Glassmorphism card */
+  .glass {
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.03) 0%,
+      rgba(255, 255, 255, 0.01) 100%
+    );
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .glass-hover:hover {
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.06) 0%,
+      rgba(255, 255, 255, 0.02) 100%
+    );
+    border-color: rgba(163, 230, 53, 0.15);
+  }
+
+  /* Kiwi green gradient text */
+  .text-gradient-kiwi {
+    background: linear-gradient(135deg, #a3e635 0%, #84cc16 50%, #65a30d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Glow effects */
+  .glow-kiwi {
+    box-shadow: 0 0 20px rgba(163, 230, 53, 0.15),
+                0 0 60px rgba(163, 230, 53, 0.05);
+  }
+
+  .glow-kiwi-strong {
+    box-shadow: 0 0 30px rgba(163, 230, 53, 0.25),
+                0 0 80px rgba(163, 230, 53, 0.1);
+  }
+
+  /* Subtle grain overlay for premium feel */
+  .noise-overlay::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.03;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+}
+
+/* ===== Utility Layer ===== */
+@layer utilities {
+  /* Fishing / pulse animation for FAB */
+  @keyframes fishing-pulse {
+    0%, 100% {
+      box-shadow: 0 0 0 0 rgba(163, 230, 53, 0.4);
+    }
+    50% {
+      box-shadow: 0 0 0 12px rgba(163, 230, 53, 0);
+    }
+  }
+
+  .animate-fishing {
+    animation: fishing-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  /* Page transition */
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 0.6s ease-out forwards;
+  }
+}

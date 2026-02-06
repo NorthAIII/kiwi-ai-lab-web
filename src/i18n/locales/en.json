@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "title": "Kiwi AI Lab — Bespoke AI Solutions for Forward-Thinking Enterprises",
+    "description": "Kiwi AI Lab is a boutique artificial intelligence studio specializing in custom LLM integrations, autonomous workflows, and end-to-end AI strategy for businesses that refuse to settle for ordinary."
+  },
+
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "studio": "Studio",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+
+  "hero": {
+    "badge": "Boutique AI Studio",
+    "titleLine1": "Automate",
+    "titleLine2": "with Intelligence.",
+    "subtitle": "We don't just implement AI — we architect intelligent ecosystems. From strategic consultation to production-grade deployment, Kiwi AI Lab delivers bespoke automation solutions that transform how your business operates, decides, and scales.",
+    "cta": "Book a Discovery Call",
+    "ctaSecondary": "Explore Our Services",
+    "stats": {
+      "projects": "Projects Delivered",
+      "satisfaction": "Client Satisfaction",
+      "uptime": "System Uptime",
+      "languages": "Languages Supported"
+    }
+  },
+
+  "approach": {
+    "badge": "Our Philosophy",
+    "title": "The Boutique Approach",
+    "subtitle": "In a world of off-the-shelf AI templates, we take a fundamentally different path. Every engagement begins with deep understanding and ends with measurable transformation.",
+    "cards": {
+      "discover": {
+        "title": "Discover & Define",
+        "description": "We begin every partnership with an immersive discovery phase — mapping your operational landscape, identifying high-impact automation opportunities, and crafting a strategic AI roadmap tailored exclusively to your business objectives."
+      },
+      "architect": {
+        "title": "Architect & Engineer",
+        "description": "Our senior engineers design and build custom AI architectures from the ground up. No templates, no shortcuts. Every integration — from retrieval-augmented generation pipelines to autonomous agent workflows — is precision-engineered for your unique requirements."
+      },
+      "deploy": {
+        "title": "Deploy & Evolve",
+        "description": "Deployment is only the beginning. We provide production-grade infrastructure, continuous performance monitoring, and iterative optimization to ensure your AI systems don't just launch — they compound in value over time."
+      }
+    }
+  },
+
+  "techStack": {
+    "badge": "Technology",
+    "title": "Built on What Matters",
+    "subtitle": "We leverage the most advanced models and frameworks available — not because they're trendy, but because they deliver results. Our technology choices are driven by a single criterion: what solves your problem most effectively.",
+    "categories": {
+      "models": "Foundation Models",
+      "frameworks": "Frameworks & Orchestration",
+      "infrastructure": "Cloud & Infrastructure",
+      "integrations": "Enterprise Integrations"
+    }
+  },
+
+  "services": {
+    "badge": "What We Do",
+    "title": "Precision AI Services",
+    "subtitle": "Three pillars of expertise, unified by a single mission: to make artificial intelligence your most valuable operational asset.",
+    "items": {
+      "strategy": {
+        "title": "AI Strategy & Consulting",
+        "description": "Navigate the AI landscape with confidence. We conduct comprehensive assessments of your existing workflows, identify automation opportunities with the highest ROI, and deliver a clear, executable AI strategy — complete with technology selection, timeline projections, and measurable success criteria.",
+        "features": [
+          "Operational AI Readiness Assessment",
+          "Technology Stack Advisory & Selection",
+          "ROI-Driven Implementation Roadmap",
+          "Executive AI Literacy Workshops",
+          "Competitive Intelligence & Market Positioning"
+        ]
+      },
+      "llm": {
+        "title": "Custom LLM & RAG Integrations",
+        "description": "Off-the-shelf chatbots are not what we do. We engineer sophisticated, context-aware AI systems powered by retrieval-augmented generation — systems that understand your proprietary data, speak your brand's language, and deliver responses with the precision and nuance your clients expect.",
+        "features": [
+          "Enterprise Knowledge Base Construction",
+          "Multi-Modal RAG Pipeline Development",
+          "Custom Fine-Tuning & Prompt Engineering",
+          "Semantic Search & Intelligent Retrieval",
+          "Hallucination Mitigation & Output Guardrails"
+        ]
+      },
+      "automation": {
+        "title": "Autonomous Business Workflows",
+        "description": "Transform your operations with self-orchestrating AI systems that don't just respond — they anticipate, decide, and execute. From multi-agent architectures that manage complex processes end-to-end, to intelligent pipelines that eliminate manual bottlenecks, we build the future your competitors haven't imagined yet.",
+        "features": [
+          "Multi-Agent System Architecture",
+          "Intelligent Document Processing Pipelines",
+          "Automated Decision Engines with Human-in-the-Loop",
+          "CRM & ERP AI Integration Layer",
+          "Real-Time Analytics & Predictive Operations"
+        ]
+      }
+    },
+    "cta": "Discuss Your Project"
+  },
+
+  "studio": {
+    "badge": "Who We Are",
+    "title": "The Lab Behind the Intelligence",
+    "subtitle": "Kiwi AI Lab isn't a factory — it's a studio. We're a deliberately small team of senior AI engineers, strategists, and architects who choose depth over breadth. Every project receives our full, undivided attention.",
+    "philosophy": {
+      "title": "Our Philosophy",
+      "description": "We believe the most powerful AI solutions emerge not from scale, but from precision. Our boutique model ensures that every client works directly with the minds building their systems — no account managers, no handoffs, no dilution of vision. This is AI, crafted.",
+      "principles": [
+        {
+          "title": "Bespoke Over Boilerplate",
+          "description": "Every solution is engineered from scratch for your specific context. We don't recycle architectures — we create them."
+        },
+        {
+          "title": "Transparency as Standard",
+          "description": "You'll understand every decision we make, every technology we choose, and every trade-off we consider. Your AI is never a black box."
+        },
+        {
+          "title": "Partnership, Not Procurement",
+          "description": "We embed ourselves in your business reality. We succeed when you succeed — and that alignment drives everything we do."
+        },
+        {
+          "title": "Relentless Iteration",
+          "description": "The best AI systems are living systems. We build for evolution, ensuring your investment compounds in capability and value."
+        }
+      ]
+    },
+    "delivery": {
+      "title": "End-to-End Delivery Model",
+      "description": "From first conversation to production deployment and beyond, we own every phase of the journey. Our integrated delivery model eliminates the gaps, miscommunications, and quality loss that plague fragmented vendor relationships.",
+      "phases": [
+        { "label": "Discovery", "description": "Deep-dive into your operations, goals, and constraints" },
+        { "label": "Architecture", "description": "Technical design, model selection, and system blueprinting" },
+        { "label": "Development", "description": "Agile build sprints with continuous client collaboration" },
+        { "label": "Deployment", "description": "Production launch with infrastructure hardening and monitoring" },
+        { "label": "Evolution", "description": "Ongoing optimization, retraining, and capability expansion" }
+      ]
+    }
+  },
+
+  "contact": {
+    "badge": "Let's Talk",
+    "title": "Start a Conversation",
+    "subtitle": "Every transformative AI journey begins with a single conversation. Whether you have a specific challenge in mind or simply want to explore what's possible, we're here to listen.",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "email": "Business Email",
+      "emailPlaceholder": "john@company.com",
+      "company": "Company",
+      "companyPlaceholder": "Company Inc.",
+      "service": "Area of Interest",
+      "servicePlaceholder": "Select a service",
+      "serviceOptions": {
+        "strategy": "AI Strategy & Consulting",
+        "llm": "Custom LLM & RAG Integration",
+        "automation": "Autonomous Business Workflows",
+        "other": "Something Else Entirely"
+      },
+      "message": "Tell Us About Your Vision",
+      "messagePlaceholder": "Describe your current challenges, goals, or the transformation you envision...",
+      "submit": "Send Inquiry",
+      "submitting": "Sending...",
+      "success": "Your inquiry has been received. We'll be in touch within 24 hours.",
+      "error": "Something went wrong. Please try again or reach out directly via our contact channels."
+    },
+    "info": {
+      "title": "Other Ways to Reach Us",
+      "email": "hello@kiwiai.lab",
+      "response": "Typical response within 24 hours",
+      "locations": "Serving clients globally from Istanbul"
+    }
+  },
+
+  "fab": {
+    "tooltip": "Let's Connect",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "email": "Email",
+    "linkedin": "LinkedIn"
+  },
+
+  "footer": {
+    "description": "A boutique AI studio crafting bespoke intelligent systems for enterprises that demand more than ordinary automation.",
+    "navigation": "Navigation",
+    "services": "Services",
+    "connect": "Connect",
+    "language": "Language",
+    "rights": "All rights reserved.",
+    "tagline": "Crafted with precision. Powered by intelligence."
+  }
+}

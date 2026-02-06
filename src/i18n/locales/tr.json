@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "title": "Kiwi AI Lab — Vizyon Sahibi Kurumlara Özel Yapay Zeka Çözümleri",
+    "description": "Kiwi AI Lab, sıradanlığı reddeden işletmeler için özel LLM entegrasyonları, otonom iş akışları ve uçtan uca yapay zeka stratejisi geliştiren butik bir yapay zeka stüdyosudur."
+  },
+
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "studio": "Stüdyo",
+    "contact": "İletişim",
+    "getStarted": "Başlayalım"
+  },
+
+  "hero": {
+    "badge": "Butik AI Stüdyo",
+    "titleLine1": "Akıllı",
+    "titleLine2": "Otomasyon.",
+    "subtitle": "Biz sadece yapay zeka uygulamıyoruz — akıllı ekosistemler tasarlıyoruz. Stratejik danışmanlıktan üretim düzeyinde dağıtıma kadar, Kiwi AI Lab işletmenizin çalışma, karar alma ve ölçeklenme biçimini dönüştüren özel otomasyon çözümleri sunar.",
+    "cta": "Keşif Görüşmesi Planlayın",
+    "ctaSecondary": "Hizmetlerimizi Keşfedin",
+    "stats": {
+      "projects": "Tamamlanan Proje",
+      "satisfaction": "Müşteri Memnuniyeti",
+      "uptime": "Sistem Çalışma Süresi",
+      "languages": "Desteklenen Dil"
+    }
+  },
+
+  "approach": {
+    "badge": "Felsefemiz",
+    "title": "Butik Yaklaşım",
+    "subtitle": "Hazır yapay zeka şablonlarının hüküm sürdüğü bir dünyada, biz temelden farklı bir yol izliyoruz. Her iş birliği derin bir anlayışla başlar ve ölçülebilir bir dönüşümle sonuçlanır.",
+    "cards": {
+      "discover": {
+        "title": "Keşfet ve Tanımla",
+        "description": "Her iş birliğine kapsamlı bir keşif aşamasıyla başlıyoruz — operasyonel yapınızı haritalıyor, yüksek etkili otomasyon fırsatlarını belirliyoruz ve yalnızca sizin iş hedeflerinize özel stratejik bir AI yol haritası oluşturuyoruz."
+      },
+      "architect": {
+        "title": "Tasarla ve Geliştir",
+        "description": "Kıdemli mühendislerimiz, özel yapay zeka mimarilerini sıfırdan tasarlar ve inşa eder. Şablon yok, kestirme yol yok. RAG boru hatlarından otonom ajan iş akışlarına kadar her entegrasyon, sizin benzersiz ihtiyaçlarınız için hassasiyetle mühendislik edilir."
+      },
+      "deploy": {
+        "title": "Dağıt ve Evrimleştir",
+        "description": "Dağıtım yalnızca başlangıçtır. Üretim düzeyinde altyapı, sürekli performans izleme ve iteratif optimizasyon sunarak yapay zeka sistemlerinizin sadece çalışmasını değil, zaman içinde katlanarak değer üretmesini sağlıyoruz."
+      }
+    }
+  },
+
+  "techStack": {
+    "badge": "Teknoloji",
+    "title": "Önemli Olan Üzerine İnşa Edildi",
+    "subtitle": "En gelişmiş modelleri ve çerçeveleri kullanıyoruz — trend olduğu için değil, sonuç verdiği için. Teknoloji tercihlerimiz tek bir kritere dayanır: sorununuzu en etkili şekilde ne çözer.",
+    "categories": {
+      "models": "Temel Modeller",
+      "frameworks": "Çerçeveler ve Orkestrasyon",
+      "infrastructure": "Bulut ve Altyapı",
+      "integrations": "Kurumsal Entegrasyonlar"
+    }
+  },
+
+  "services": {
+    "badge": "Neler Yapıyoruz",
+    "title": "Hassas AI Hizmetleri",
+    "subtitle": "Tek bir misyonla birleşen üç uzmanlık alanı: yapay zekayı en değerli operasyonel varlığınız haline getirmek.",
+    "items": {
+      "strategy": {
+        "title": "AI Strateji ve Danışmanlık",
+        "description": "Yapay zeka dünyasında güvenle ilerleyin. Mevcut iş akışlarınızın kapsamlı değerlendirmesini yapıyor, en yüksek ROI potansiyeline sahip otomasyon fırsatlarını belirliyoruz ve teknoloji seçimi, zaman planlaması ve ölçülebilir başarı kriterleriyle donatılmış net, uygulanabilir bir AI stratejisi sunuyoruz.",
+        "features": [
+          "Operasyonel AI Hazırlık Değerlendirmesi",
+          "Teknoloji Yığını Danışmanlığı ve Seçimi",
+          "ROI Odaklı Uygulama Yol Haritası",
+          "Yönetici Düzeyinde AI Okuryazarlık Atölyeleri",
+          "Rekabet İstihbaratı ve Pazar Konumlandırma"
+        ]
+      },
+      "llm": {
+        "title": "Özel LLM ve RAG Entegrasyonları",
+        "description": "Hazır sohbet botları bizim işimiz değil. Biz, RAG (Retrieval-Augmented Generation) ile güçlendirilmiş sofistike, bağlam farkındalığına sahip yapay zeka sistemleri mühendislik ediyoruz — şirketinize özel verileri anlayan, markanızın dilinden konuşan ve müşterilerinizin beklediği hassasiyet ve incelikle yanıt veren sistemler.",
+        "features": [
+          "Kurumsal Bilgi Tabanı Oluşturma",
+          "Çok Modlu RAG Boru Hattı Geliştirme",
+          "Özel İnce Ayar ve Prompt Mühendisliği",
+          "Semantik Arama ve Akıllı Erişim",
+          "Halüsinasyon Önleme ve Çıktı Güvenlik Mekanizmaları"
+        ]
+      },
+      "automation": {
+        "title": "Otonom İş Akışları",
+        "description": "Operasyonlarınızı yalnızca yanıt vermeyen, aynı zamanda öngören, karar veren ve uygulayan kendi kendini yöneten AI sistemleriyle dönüştürün. Karmaşık süreçleri uçtan uca yöneten çoklu ajan mimarilerinden manuel darboğazları ortadan kaldıran akıllı boru hatlarına kadar, rakiplerinizin henüz hayal edemediği geleceği inşa ediyoruz.",
+        "features": [
+          "Çoklu Ajan Sistem Mimarisi",
+          "Akıllı Belge İşleme Boru Hatları",
+          "İnsan Denetimli Otomatik Karar Motorları",
+          "CRM ve ERP AI Entegrasyon Katmanı",
+          "Gerçek Zamanlı Analitik ve Öngörücü Operasyonlar"
+        ]
+      }
+    },
+    "cta": "Projenizi Konuşalım"
+  },
+
+  "studio": {
+    "badge": "Biz Kimiz",
+    "title": "Zekanın Arkasındaki Laboratuvar",
+    "subtitle": "Kiwi AI Lab bir fabrika değil — bir stüdyo. Derinliği genişliğe tercih eden, kıdemli AI mühendisleri, stratejistler ve mimarlardan oluşan bilinçli olarak küçük tutulan bir ekibiz. Her proje, tüm dikkatimizi ve enerjimizi alır.",
+    "philosophy": {
+      "title": "Felsefemiz",
+      "description": "En güçlü yapay zeka çözümlerinin ölçekten değil, hassasiyetten doğduğuna inanıyoruz. Butik modelimiz, her müşterinin sistemlerini inşa eden beyinlerle doğrudan çalışmasını garanti eder — arada hesap yöneticisi yok, devir teslim yok, vizyonun seyrelmesi yok. Bu, ustalıkla işlenmiş yapay zeka.",
+      "principles": [
+        {
+          "title": "Şablona Değil, Özel Tasarıma",
+          "description": "Her çözüm, sizin özel bağlamınız için sıfırdan mühendislik edilir. Biz mimari geri dönüştürmeyiz — yaratırız."
+        },
+        {
+          "title": "Standart Olarak Şeffaflık",
+          "description": "Aldığımız her kararı, seçtiğimiz her teknolojiyi ve değerlendirdiğimiz her ödünleşimi anlayacaksınız. Yapay zekanız asla bir kara kutu olmayacak."
+        },
+        {
+          "title": "Tedarik Değil, Ortaklık",
+          "description": "Kendimizi işletmenizin gerçekliğine dahil ediyoruz. Siz başarılı olduğunuzda biz de başarılı oluruz — ve bu uyum, yaptığımız her şeyi yönlendirir."
+        },
+        {
+          "title": "Durmaksızın İterasyon",
+          "description": "En iyi yapay zeka sistemleri yaşayan sistemlerdir. Evrim için inşa ediyoruz ve yatırımınızın yetenek ve değer açısından katlanarak büyümesini sağlıyoruz."
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Uçtan Uca Teslimat Modeli",
+      "description": "İlk görüşmeden üretim dağıtımına ve ötesine, yolculuğun her aşamasına sahip çıkıyoruz. Entegre teslimat modelimiz, parçalı tedarikçi ilişkilerinin yarattığı boşlukları, iletişim kopukluklarını ve kalite kayıplarını ortadan kaldırır.",
+      "phases": [
+        { "label": "Keşif", "description": "Operasyonlarınıza, hedeflerinize ve kısıtlarınıza derinlemesine dalış" },
+        { "label": "Mimari", "description": "Teknik tasarım, model seçimi ve sistem planlaması" },
+        { "label": "Geliştirme", "description": "Sürekli müşteri iş birliğiyle çevik geliştirme sprintleri" },
+        { "label": "Dağıtım", "description": "Altyapı güçlendirme ve izleme ile üretim ortamına geçiş" },
+        { "label": "Evrim", "description": "Sürekli optimizasyon, yeniden eğitim ve yetenek genişletme" }
+      ]
+    }
+  },
+
+  "contact": {
+    "badge": "İletişime Geçin",
+    "title": "Bir Sohbet Başlatalım",
+    "subtitle": "Her dönüştürücü yapay zeka yolculuğu tek bir sohbetle başlar. Aklınızda belirli bir zorluk olsun ya da olasılıkları keşfetmek isteyin, sizi dinlemek için buradayız.",
+    "form": {
+      "name": "Ad Soyad",
+      "namePlaceholder": "Ahmet Yılmaz",
+      "email": "Kurumsal E-posta",
+      "emailPlaceholder": "ahmet@sirket.com",
+      "company": "Şirket",
+      "companyPlaceholder": "Şirket A.Ş.",
+      "service": "İlgi Alanı",
+      "servicePlaceholder": "Bir hizmet seçin",
+      "serviceOptions": {
+        "strategy": "AI Strateji ve Danışmanlık",
+        "llm": "Özel LLM ve RAG Entegrasyonu",
+        "automation": "Otonom İş Akışları",
+        "other": "Tamamen Farklı Bir Konu"
+      },
+      "message": "Vizyonunuzu Anlatın",
+      "messagePlaceholder": "Mevcut zorluklarınızı, hedeflerinizi veya öngördüğünüz dönüşümü açıklayın...",
+      "submit": "Başvuru Gönder",
+      "submitting": "Gönderiliyor...",
+      "success": "Başvurunuz alındı. 24 saat içinde sizinle iletişime geçeceğiz.",
+      "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin veya doğrudan iletişim kanallarımız üzerinden bize ulaşın."
+    },
+    "info": {
+      "title": "Bize Ulaşmanın Diğer Yolları",
+      "email": "hello@kiwiai.lab",
+      "response": "Genellikle 24 saat içinde yanıt",
+      "locations": "İstanbul merkezli, dünya genelinde hizmet"
+    }
+  },
+
+  "fab": {
+    "tooltip": "Bağlantı Kuralım",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "email": "E-posta",
+    "linkedin": "LinkedIn"
+  },
+
+  "footer": {
+    "description": "Sıradan otomasyondan fazlasını talep eden kurumlara özel akıllı sistemler tasarlayan butik bir AI stüdyosu.",
+    "navigation": "Gezinme",
+    "services": "Hizmetler",
+    "connect": "Bağlantı",
+    "language": "Dil",
+    "rights": "Tüm hakları saklıdır.",
+    "tagline": "Hassasiyetle tasarlandı. Zekayla güçlendirildi."
+  }
+}

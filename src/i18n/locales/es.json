@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "title": "Kiwi AI Lab — Soluciones de IA a Medida para Empresas Visionarias",
+    "description": "Kiwi AI Lab es un estudio boutique de inteligencia artificial especializado en integraciones personalizadas de LLM, flujos de trabajo autónomos y estrategia integral de IA para empresas que se niegan a conformarse con lo convencional."
+  },
+
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "studio": "Estudio",
+    "contact": "Contacto",
+    "getStarted": "Comenzar"
+  },
+
+  "hero": {
+    "badge": "Estudio Boutique de IA",
+    "titleLine1": "Automatice",
+    "titleLine2": "con Inteligencia.",
+    "subtitle": "No solo implementamos IA — diseñamos ecosistemas inteligentes. Desde la consultoría estratégica hasta el despliegue en producción, Kiwi AI Lab ofrece soluciones de automatización a medida que transforman la forma en que su empresa opera, decide y escala.",
+    "cta": "Reserve una Consulta Inicial",
+    "ctaSecondary": "Explore Nuestros Servicios",
+    "stats": {
+      "projects": "Proyectos Entregados",
+      "satisfaction": "Satisfacción del Cliente",
+      "uptime": "Disponibilidad del Sistema",
+      "languages": "Idiomas Soportados"
+    }
+  },
+
+  "approach": {
+    "badge": "Nuestra Filosofía",
+    "title": "El Enfoque Boutique",
+    "subtitle": "En un mundo de plantillas de IA prediseñadas, nosotros tomamos un camino radicalmente distinto. Cada colaboración comienza con una comprensión profunda y culmina con una transformación medible.",
+    "cards": {
+      "discover": {
+        "title": "Descubrir y Definir",
+        "description": "Iniciamos cada alianza con una fase de descubrimiento inmersiva: mapeamos su panorama operativo, identificamos las oportunidades de automatización de mayor impacto y diseñamos una hoja de ruta estratégica de IA adaptada exclusivamente a los objetivos de su negocio."
+      },
+      "architect": {
+        "title": "Diseñar e Implementar",
+        "description": "Nuestros ingenieros sénior diseñan y construyen arquitecturas de IA personalizadas desde cero. Sin plantillas, sin atajos. Cada integración — desde pipelines de generación aumentada por recuperación hasta flujos de trabajo con agentes autónomos — está diseñada con precisión para sus requisitos específicos."
+      },
+      "deploy": {
+        "title": "Desplegar y Evolucionar",
+        "description": "El despliegue es solo el comienzo. Proporcionamos infraestructura de nivel productivo, monitoreo continuo del rendimiento y optimización iterativa para garantizar que sus sistemas de IA no solo se lancen, sino que generen valor compuesto con el tiempo."
+      }
+    }
+  },
+
+  "techStack": {
+    "badge": "Tecnología",
+    "title": "Construido sobre lo que Importa",
+    "subtitle": "Utilizamos los modelos y frameworks más avanzados disponibles — no porque estén de moda, sino porque generan resultados. Nuestras decisiones tecnológicas se rigen por un único criterio: qué resuelve su problema de la manera más eficaz.",
+    "categories": {
+      "models": "Modelos Fundacionales",
+      "frameworks": "Frameworks y Orquestación",
+      "infrastructure": "Nube e Infraestructura",
+      "integrations": "Integraciones Empresariales"
+    }
+  },
+
+  "services": {
+    "badge": "Lo que Hacemos",
+    "title": "Servicios de IA de Precisión",
+    "subtitle": "Tres pilares de especialización, unificados por una sola misión: convertir la inteligencia artificial en su activo operativo más valioso.",
+    "items": {
+      "strategy": {
+        "title": "Estrategia y Consultoría de IA",
+        "description": "Navegue el panorama de la IA con confianza. Realizamos evaluaciones integrales de sus flujos de trabajo actuales, identificamos las oportunidades de automatización con el mayor ROI y entregamos una estrategia de IA clara y ejecutable — con selección de tecnología, proyecciones de plazos y criterios de éxito medibles.",
+        "features": [
+          "Evaluación de Preparación Operativa para IA",
+          "Asesoría y Selección de Stack Tecnológico",
+          "Hoja de Ruta de Implementación Orientada al ROI",
+          "Talleres Ejecutivos de Alfabetización en IA",
+          "Inteligencia Competitiva y Posicionamiento de Mercado"
+        ]
+      },
+      "llm": {
+        "title": "Integraciones Personalizadas de LLM y RAG",
+        "description": "Los chatbots genéricos no son lo nuestro. Diseñamos sistemas de IA sofisticados y conscientes del contexto, impulsados por generación aumentada por recuperación — sistemas que comprenden sus datos propietarios, hablan el lenguaje de su marca y ofrecen respuestas con la precisión y el matiz que sus clientes esperan.",
+        "features": [
+          "Construcción de Bases de Conocimiento Empresarial",
+          "Desarrollo de Pipelines RAG Multimodales",
+          "Ajuste Fino Personalizado e Ingeniería de Prompts",
+          "Búsqueda Semántica y Recuperación Inteligente",
+          "Mitigación de Alucinaciones y Controles de Salida"
+        ]
+      },
+      "automation": {
+        "title": "Flujos de Trabajo Empresariales Autónomos",
+        "description": "Transforme sus operaciones con sistemas de IA auto-orquestados que no solo responden — anticipan, deciden y ejecutan. Desde arquitecturas multiagente que gestionan procesos complejos de principio a fin, hasta pipelines inteligentes que eliminan cuellos de botella manuales, construimos el futuro que su competencia aún no ha imaginado.",
+        "features": [
+          "Arquitectura de Sistemas Multiagente",
+          "Pipelines de Procesamiento Inteligente de Documentos",
+          "Motores de Decisión Automatizada con Supervisión Humana",
+          "Capa de Integración de IA para CRM y ERP",
+          "Analítica en Tiempo Real y Operaciones Predictivas"
+        ]
+      }
+    },
+    "cta": "Hablemos de su Proyecto"
+  },
+
+  "studio": {
+    "badge": "Quiénes Somos",
+    "title": "El Laboratorio Detrás de la Inteligencia",
+    "subtitle": "Kiwi AI Lab no es una fábrica — es un estudio. Somos un equipo deliberadamente reducido de ingenieros sénior de IA, estrategas y arquitectos que eligen la profundidad sobre la amplitud. Cada proyecto recibe nuestra atención plena e indivisible.",
+    "philosophy": {
+      "title": "Nuestra Filosofía",
+      "description": "Creemos que las soluciones de IA más poderosas no surgen de la escala, sino de la precisión. Nuestro modelo boutique garantiza que cada cliente trabaje directamente con las mentes que construyen sus sistemas — sin ejecutivos de cuenta intermediarios, sin traspasos, sin dilución de la visión. Esto es IA, artesanal.",
+      "principles": [
+        {
+          "title": "A Medida, No en Serie",
+          "description": "Cada solución se diseña desde cero para su contexto específico. No reciclamos arquitecturas — las creamos."
+        },
+        {
+          "title": "Transparencia como Estándar",
+          "description": "Usted comprenderá cada decisión que tomamos, cada tecnología que elegimos y cada concesión que consideramos. Su IA nunca será una caja negra."
+        },
+        {
+          "title": "Alianza, No Contratación",
+          "description": "Nos integramos en la realidad de su negocio. Nuestro éxito depende del suyo — y esa alineación impulsa todo lo que hacemos."
+        },
+        {
+          "title": "Iteración Constante",
+          "description": "Los mejores sistemas de IA son sistemas vivos. Construimos pensando en la evolución, asegurando que su inversión se multiplique en capacidad y valor."
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Modelo de Entrega Integral",
+      "description": "Desde la primera conversación hasta el despliegue en producción y más allá, asumimos la responsabilidad de cada fase del proceso. Nuestro modelo de entrega integrado elimina las brechas, los malentendidos y la pérdida de calidad que afectan a las relaciones fragmentadas con múltiples proveedores.",
+      "phases": [
+        { "label": "Descubrimiento", "description": "Inmersión profunda en sus operaciones, objetivos y limitaciones" },
+        { "label": "Arquitectura", "description": "Diseño técnico, selección de modelos y planificación del sistema" },
+        { "label": "Desarrollo", "description": "Sprints ágiles de construcción con colaboración continua del cliente" },
+        { "label": "Despliegue", "description": "Lanzamiento a producción con fortalecimiento de infraestructura y monitoreo" },
+        { "label": "Evolución", "description": "Optimización continua, reentrenamiento y expansión de capacidades" }
+      ]
+    }
+  },
+
+  "contact": {
+    "badge": "Hablemos",
+    "title": "Inicie una Conversación",
+    "subtitle": "Todo viaje transformador de IA comienza con una sola conversación. Ya sea que tenga un desafío específico en mente o simplemente desee explorar lo que es posible, estamos aquí para escucharle.",
+    "form": {
+      "name": "Nombre Completo",
+      "namePlaceholder": "Juan García",
+      "email": "Correo Corporativo",
+      "emailPlaceholder": "juan@empresa.com",
+      "company": "Empresa",
+      "companyPlaceholder": "Empresa S.A.",
+      "service": "Área de Interés",
+      "servicePlaceholder": "Seleccione un servicio",
+      "serviceOptions": {
+        "strategy": "Estrategia y Consultoría de IA",
+        "llm": "Integración Personalizada de LLM y RAG",
+        "automation": "Flujos de Trabajo Empresariales Autónomos",
+        "other": "Algo Completamente Diferente"
+      },
+      "message": "Cuéntenos su Visión",
+      "messagePlaceholder": "Describa sus desafíos actuales, objetivos o la transformación que imagina...",
+      "submit": "Enviar Consulta",
+      "submitting": "Enviando...",
+      "success": "Su consulta ha sido recibida. Nos pondremos en contacto en un plazo de 24 horas.",
+      "error": "Ha ocurrido un error. Por favor, inténtelo de nuevo o contáctenos directamente a través de nuestros canales de comunicación."
+    },
+    "info": {
+      "title": "Otras Formas de Contactarnos",
+      "email": "hello@kiwiai.lab",
+      "response": "Respuesta habitual en un plazo de 24 horas",
+      "locations": "Atendiendo clientes en todo el mundo desde Estambul"
+    }
+  },
+
+  "fab": {
+    "tooltip": "Conectemos",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "email": "Correo Electrónico",
+    "linkedin": "LinkedIn"
+  },
+
+  "footer": {
+    "description": "Un estudio boutique de IA que diseña sistemas inteligentes a medida para empresas que exigen más que una automatización convencional.",
+    "navigation": "Navegación",
+    "services": "Servicios",
+    "connect": "Conectar",
+    "language": "Idioma",
+    "rights": "Todos los derechos reservados.",
+    "tagline": "Diseñado con precisión. Impulsado por inteligencia."
+  }
+}
