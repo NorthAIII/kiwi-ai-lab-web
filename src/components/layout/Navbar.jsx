@@ -47,7 +47,7 @@ export default function Navbar() {
             <Link to="/" className="flex items-center gap-2 group">
               <KiwiLogo size={34} />
               <div className="flex flex-col">
-                <span className="text-white font-bold text-base leading-tight tracking-tight">
+                <span className="font-display text-white font-bold text-base leading-tight tracking-tight">
                   Kiwi<span className="text-kiwi-500">AI</span>
                 </span>
                 <span className="text-dark-300 text-[10px] font-medium uppercase tracking-[0.2em] leading-tight">
@@ -85,7 +85,7 @@ export default function Navbar() {
             <div className="hidden lg:flex items-center gap-3">
               <Link
                 to="/contact"
-                className="group relative inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white bg-gradient-to-r from-kiwi-600 to-kiwi-700 rounded-xl hover:from-kiwi-500 hover:to-kiwi-600 transition-all duration-300 shadow-lg shadow-kiwi-500/20 hover:shadow-kiwi-500/30"
+                className="group relative inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-dark-950 bg-gradient-to-r from-kiwi-400 to-kiwi-500 rounded-xl hover:from-kiwi-300 hover:to-kiwi-400 transition-all duration-300 shadow-lg shadow-kiwi-500/20 hover:shadow-kiwi-500/30"
               >
                 {t('nav.getStarted')}
                 <ChevronRight size={14} className="group-hover:translate-x-0.5 transition-transform duration-200" />
@@ -174,7 +174,7 @@ export default function Navbar() {
                 >
                   <Link
                     to="/contact"
-                    className="flex items-center justify-center gap-2 w-full py-3 text-sm font-semibold text-white bg-gradient-to-r from-kiwi-600 to-kiwi-700 rounded-xl"
+                    className="flex items-center justify-center gap-2 w-full py-3 text-sm font-semibold text-dark-950 bg-gradient-to-r from-kiwi-400 to-kiwi-500 rounded-xl"
                   >
                     {t('nav.getStarted')}
                     <ChevronRight size={14} />

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Dark rounded background -->
+  <rect width="32" height="32" rx="6" ry="6" fill="#0F0F1E" />
+
+  <g transform="translate(16, 16)">
+    <!-- Kiwi outer ring -->
+    <circle cx="0" cy="0" r="12.5" fill="#2E6818" />
+    <circle cx="0" cy="0" r="11.5" fill="#7EC845" />
+
+    <!-- White separator -->
+    <circle cx="0" cy="0" r="8" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="0.6" />
+
+    <!-- Inner flesh -->
+    <circle cx="0" cy="0" r="7.7" fill="#96E05A" />
+
+    <!-- Core -->
+    <circle cx="0" cy="0" r="2.5" fill="rgba(255,255,255,0.85)" />
+
+    <!-- Simplified seed lines (6 rays — readable at small size) -->
+    <g stroke="#0F0F1E" stroke-width="0.9" opacity="0.5">
+      <line x1="0" y1="-2.5" x2="0" y2="-11" />
+      <line x1="0" y1="2.5" x2="0" y2="11" />
+      <line x1="2.2" y1="-1.2" x2="9.5" y2="-5.5" />
+      <line x1="-2.2" y1="1.2" x2="-9.5" y2="5.5" />
+      <line x1="2.2" y1="1.2" x2="9.5" y2="5.5" />
+      <line x1="-2.2" y1="-1.2" x2="-9.5" y2="-5.5" />
+    </g>
+
+    <!-- Seed dots at endpoints -->
+    <g fill="#0F0F1E" opacity="0.6">
+      <circle cx="0" cy="-10.5" r="1" />
+      <circle cx="0" cy="10.5" r="1" />
+      <circle cx="9.1" cy="-5.2" r="1" />
+      <circle cx="-9.1" cy="5.2" r="1" />
+      <circle cx="9.1" cy="5.2" r="1" />
+      <circle cx="-9.1" cy="-5.2" r="1" />
+    </g>
+  </g>
+</svg>

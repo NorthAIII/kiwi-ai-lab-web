@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { supportedLanguages } from '../../i18n/i18n.js'
-import { Globe, ArrowUpRight } from 'lucide-react'
+import { Globe, ArrowUpRight, Mail } from 'lucide-react'
 import KiwiLogo from '../ui/KiwiLogo'
 
 export default function Footer() {
@@ -24,14 +24,21 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <KiwiLogo size={28} />
-              <span className="text-white font-bold text-sm">
+              <span className="font-display text-white font-bold text-sm">
                 Kiwi<span className="text-kiwi-500">AI</span>{' '}
                 <span className="text-dark-300 font-medium">Lab</span>
               </span>
             </div>
-            <p className="text-dark-300 text-sm leading-relaxed max-w-xs">
+            <p className="text-dark-300 text-sm leading-relaxed max-w-xs mb-3">
               {t('footer.description')}
             </p>
+            <a
+              href="mailto:info@kiwiailab.com"
+              className="inline-flex items-center gap-2 text-dark-300 text-sm hover:text-kiwi-500 transition-colors duration-200"
+            >
+              <Mail size={14} className="text-kiwi-500/60" />
+              info@kiwiailab.com
+            </a>
           </div>
 
           {/* Navigation */}

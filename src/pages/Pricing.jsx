@@ -39,7 +39,7 @@ function PricingCard({ tierKey, icon: Icon, popular, index, isInView }) {
     >
       {/* Popular badge */}
       {popular && (
-        <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 bg-gradient-to-r from-kiwi-600 to-kiwi-700 rounded-full text-white text-xs font-semibold shadow-lg shadow-kiwi-500/20">
+        <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 bg-gradient-to-r from-kiwi-400 to-kiwi-500 rounded-full text-dark-950 text-xs font-semibold shadow-lg shadow-kiwi-500/20">
           {t('pricing.popular')}
         </div>
       )}
@@ -53,14 +53,14 @@ function PricingCard({ tierKey, icon: Icon, popular, index, isInView }) {
         }`}>
           <Icon size={20} className="text-kiwi-500" />
         </div>
-        <h3 className="text-white text-lg font-bold tracking-tight">
+        <h3 className="font-display text-white text-lg font-bold tracking-tight">
           {t(`pricing.tiers.${tierKey}.name`)}
         </h3>
       </div>
 
       {/* Price */}
       <div className="mb-2">
-        <span className="text-white text-4xl font-extrabold tracking-tight">
+        <span className="font-display text-white text-4xl font-bold tracking-tight">
           {t(`pricing.tiers.${tierKey}.price`)}
         </span>
         <span className="text-dark-300 text-sm font-medium ml-1">
@@ -88,7 +88,7 @@ function PricingCard({ tierKey, icon: Icon, popular, index, isInView }) {
         to="/contact"
         className={`group/btn inline-flex items-center justify-center gap-2 w-full py-3 text-sm font-semibold rounded-xl transition-all duration-300 ${
           popular
-            ? 'text-white bg-gradient-to-r from-kiwi-600 to-kiwi-700 hover:from-kiwi-500 hover:to-kiwi-600 shadow-lg shadow-kiwi-500/20 hover:shadow-kiwi-500/30'
+            ? 'text-dark-950 bg-gradient-to-r from-kiwi-400 to-kiwi-500 hover:from-kiwi-300 hover:to-kiwi-400 shadow-lg shadow-kiwi-500/20 hover:shadow-kiwi-500/30'
             : 'text-kiwi-400 border border-kiwi-500/20 hover:bg-kiwi-500/[0.08] hover:text-kiwi-300'
         }`}
       >
@@ -138,7 +138,7 @@ export default function Pricing() {
               initial="hidden"
               animate={headerInView ? 'visible' : 'hidden'}
               custom={1}
-              className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-5"
+              className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-5"
             >
               {t('pricing.title')}
             </motion.h1>
@@ -180,7 +180,7 @@ export default function Pricing() {
             <div className="w-12 h-12 rounded-2xl bg-kiwi-500/[0.1] border border-kiwi-500/[0.15] flex items-center justify-center mx-auto mb-5">
               <Shield size={24} className="text-kiwi-500" />
             </div>
-            <h3 className="text-white text-xl lg:text-2xl font-bold tracking-tight mb-3">
+            <h3 className="font-display text-white text-xl lg:text-2xl font-bold tracking-tight mb-3">
               {t('pricing.guarantee.title')}
             </h3>
             <p className="text-dark-300 text-sm lg:text-base leading-relaxed">

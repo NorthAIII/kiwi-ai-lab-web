@@ -31,14 +31,16 @@ export default function Hero() {
           className="absolute inset-0 opacity-[0.03]"
           style={{
             backgroundImage:
-              'linear-gradient(rgba(163,230,53,0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(163,230,53,0.3) 1px, transparent 1px)',
+              'linear-gradient(rgba(180,227,61,0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(180,227,61,0.3) 1px, transparent 1px)',
             backgroundSize: '60px 60px',
           }}
         />
         {/* Radial fade */}
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,var(--color-dark-950)_70%)]" />
-        {/* Top glow */}
+        {/* Top glow — electric lime */}
         <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-kiwi-500/[0.06] rounded-full blur-[120px]" />
+        {/* Secondary teal glow */}
+        <div className="absolute top-1/3 right-1/4 w-[400px] h-[300px] bg-[#00BFA5]/[0.03] rounded-full blur-[100px]" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 w-full">
@@ -63,7 +65,7 @@ export default function Hero() {
             initial="hidden"
             animate="visible"
             custom={1}
-            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1] mb-6"
+            className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] mb-6"
           >
             <span className="text-white">{t('hero.titleLine1')}</span>
             <br />
@@ -91,7 +93,7 @@ export default function Hero() {
           >
             <Link
               to="/contact"
-              className="group relative inline-flex items-center gap-2.5 px-7 py-3.5 text-sm font-semibold text-white bg-gradient-to-r from-kiwi-600 to-kiwi-700 rounded-2xl hover:from-kiwi-500 hover:to-kiwi-600 transition-all duration-300 shadow-xl shadow-kiwi-500/20 hover:shadow-kiwi-500/30"
+              className="group relative inline-flex items-center gap-2.5 px-7 py-3.5 text-sm font-semibold text-dark-950 bg-gradient-to-r from-kiwi-400 to-kiwi-500 rounded-2xl hover:from-kiwi-300 hover:to-kiwi-400 transition-all duration-300 shadow-xl shadow-kiwi-500/20 hover:shadow-kiwi-500/30"
             >
               {t('hero.cta')}
               <ArrowRight
@@ -125,7 +127,7 @@ export default function Hero() {
                 size={18}
                 className="mx-auto mb-2 text-kiwi-500/60 group-hover:text-kiwi-500 transition-colors duration-300"
               />
-              <p className="text-white text-2xl lg:text-3xl font-bold tracking-tight mb-1">
+              <p className="font-display text-white text-2xl lg:text-3xl font-bold tracking-tight mb-1">
                 {value}
               </p>
               <p className="text-dark-300 text-xs font-medium">{t(`hero.stats.${key}`)}</p>

@@ -38,7 +38,7 @@ function ServiceCard({ serviceKey, icon: Icon, index, isInView }) {
       </div>
 
       {/* Title & Description */}
-      <h3 className="text-white text-xl lg:text-2xl font-bold mb-4 tracking-tight">
+      <h3 className="font-display text-white text-xl lg:text-2xl font-bold mb-4 tracking-tight">
         {t(`services.items.${serviceKey}.title`)}
       </h3>
       <p className="text-dark-300 text-sm lg:text-base leading-relaxed mb-8">
@@ -62,7 +62,7 @@ function ServiceCard({ serviceKey, icon: Icon, index, isInView }) {
       </ul>
 
       {/* Bottom accent */}
-      <div className="absolute bottom-0 inset-x-8 h-[2px] bg-gradient-to-r from-kiwi-500/0 via-kiwi-500/20 to-kiwi-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-full" />
+      <div className="absolute bottom-0 inset-x-8 h-[2px] bg-gradient-to-r from-kiwi-500/0 via-kiwi-400/30 to-kiwi-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-full" />
     </motion.div>
   )
 }
@@ -104,7 +104,7 @@ export default function Services() {
               initial="hidden"
               animate={headerInView ? 'visible' : 'hidden'}
               custom={1}
-              className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-5"
+              className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-5"
             >
               {t('services.title')}
             </motion.h1>
@@ -143,7 +143,7 @@ export default function Services() {
           >
             <Link
               to="/contact"
-              className="group inline-flex items-center gap-2.5 px-8 py-4 text-sm font-semibold text-white bg-gradient-to-r from-kiwi-600 to-kiwi-700 rounded-2xl hover:from-kiwi-500 hover:to-kiwi-600 transition-all duration-300 shadow-xl shadow-kiwi-500/20 hover:shadow-kiwi-500/30"
+              className="group inline-flex items-center gap-2.5 px-8 py-4 text-sm font-semibold text-dark-950 bg-gradient-to-r from-kiwi-400 to-kiwi-500 rounded-2xl hover:from-kiwi-300 hover:to-kiwi-400 transition-all duration-300 shadow-xl shadow-kiwi-500/20 hover:shadow-kiwi-500/30"
             >
               {t('services.cta')}
               <ArrowRight size={16} className="group-hover:translate-x-0.5 transition-transform duration-200" />

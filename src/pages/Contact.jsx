@@ -25,7 +25,7 @@ export default function Contact() {
     service: '',
     message: '',
   })
-  const [status, setStatus] = useState(null) // null | 'submitting' | 'success' | 'error'
+  const [status, setStatus] = useState(null)
 
   const handleChange = (e) => {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }))
@@ -34,10 +34,28 @@ export default function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault()
     setStatus('submitting')
-    // Simulate form submission (replace with real endpoint later)
-    await new Promise((r) => setTimeout(r, 1500))
-    setStatus('success')
-    setForm({ name: '', email: '', company: '', service: '', message: '' })
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: form.name,
+          email: form.email,
+          company: form.company,
+          service: form.service,
+          message: form.message,
+          source: 'contact_form',
+        }),
+      })
+
+      if (!res.ok) throw new Error(`HTTP ${res.status}`)
+      setStatus('success')
+      setForm({ name: '', email: '', company: '', service: '', message: '' })
+    } catch (err) {
+      console.error('Contact form error:', err)
+      setStatus('error')
+    }
   }
 
   const serviceOptions = t('contact.form.serviceOptions', { returnObjects: true })
@@ -52,11 +70,9 @@ export default function Contact() {
       </Helmet>
 
       <section ref={sectionRef} className="relative pt-32 lg:pt-40 pb-32 lg:pb-44">
-        {/* Background glow */}
         <div className="absolute top-20 left-1/3 w-[500px] h-[400px] bg-kiwi-500/[0.03] rounded-full blur-[120px] pointer-events-none" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Header */}
           <div className="text-center max-w-2xl mx-auto mb-14 lg:mb-18">
             <motion.div
               variants={fadeUp}
@@ -75,7 +91,7 @@ export default function Contact() {
               initial="hidden"
               animate={isInView ? 'visible' : 'hidden'}
               custom={1}
-              className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-5"
+              className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-5"
             >
               {t('contact.title')}
             </motion.h1>
@@ -91,9 +107,7 @@ export default function Contact() {
             </motion.p>
           </div>
 
-          {/* Content Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-12 max-w-5xl mx-auto">
-            {/* Form */}
             <motion.div
               variants={fadeUp}
               initial="hidden"
@@ -102,7 +116,6 @@ export default function Contact() {
               className="lg:col-span-3"
             >
               <form onSubmit={handleSubmit} className="glass rounded-3xl p-7 lg:p-9 space-y-5">
-                {/* Name & Email */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-xs font-medium text-dark-200 mb-2 uppercase tracking-wider">
@@ -134,7 +147,6 @@ export default function Contact() {
                   </div>
                 </div>
 
-                {/* Company & Service */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-xs font-medium text-dark-200 mb-2 uppercase tracking-wider">
@@ -171,7 +183,6 @@ export default function Contact() {
                   </div>
                 </div>
 
-                {/* Message */}
                 <div>
                   <label className="block text-xs font-medium text-dark-200 mb-2 uppercase tracking-wider">
                     {t('contact.form.message')}
@@ -187,11 +198,10 @@ export default function Contact() {
                   />
                 </div>
 
-                {/* Submit */}
                 <button
                   type="submit"
                   disabled={status === 'submitting'}
-                  className="group w-full inline-flex items-center justify-center gap-2.5 px-7 py-3.5 text-sm font-semibold text-white bg-gradient-to-r from-kiwi-600 to-kiwi-700 rounded-xl hover:from-kiwi-500 hover:to-kiwi-600 transition-all duration-300 shadow-lg shadow-kiwi-500/20 hover:shadow-kiwi-500/30 disabled:opacity-60 disabled:cursor-not-allowed cursor-pointer"
+                  className="group w-full inline-flex items-center justify-center gap-2.5 px-7 py-3.5 text-sm font-semibold text-dark-950 bg-gradient-to-r from-kiwi-400 to-kiwi-500 rounded-xl hover:from-kiwi-300 hover:to-kiwi-400 transition-all duration-300 shadow-lg shadow-kiwi-500/20 hover:shadow-kiwi-500/30 disabled:opacity-60 disabled:cursor-not-allowed cursor-pointer"
                 >
                   {status === 'submitting' ? (
                     <>
@@ -206,7 +216,6 @@ export default function Contact() {
                   )}
                 </button>
 
-                {/* Status Messages */}
                 {status === 'success' && (
                   <motion.div
                     initial={{ opacity: 0, y: 10 }}
@@ -231,7 +240,6 @@ export default function Contact() {
               </form>
             </motion.div>
 
-            {/* Sidebar Info */}
             <motion.div
               variants={fadeUp}
               initial="hidden"
@@ -240,23 +248,23 @@ export default function Contact() {
               className="lg:col-span-2"
             >
               <div className="glass rounded-3xl p-7 lg:p-8 space-y-8">
-                <h3 className="text-white text-lg font-bold tracking-tight">
+                <h3 className="font-display text-white text-lg font-bold tracking-tight">
                   {t('contact.info.title')}
                 </h3>
 
                 <div className="space-y-6">
-                  {/* Email */}
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 rounded-xl bg-kiwi-500/[0.08] border border-kiwi-500/[0.1] flex items-center justify-center shrink-0">
                       <Mail size={18} className="text-kiwi-500" />
                     </div>
                     <div>
-                      <p className="text-white text-sm font-medium mb-0.5">{t('contact.info.email')}</p>
+                      <a href="mailto:info@kiwiailab.com" className="text-white text-sm font-medium mb-0.5 hover:text-kiwi-500 transition-colors duration-200 block">
+                        {t('contact.info.email')}
+                      </a>
                       <p className="text-dark-400 text-xs">{t('contact.info.response')}</p>
                     </div>
                   </div>
 
-                  {/* Location */}
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 rounded-xl bg-kiwi-500/[0.08] border border-kiwi-500/[0.1] flex items-center justify-center shrink-0">
                       <MapPin size={18} className="text-kiwi-500" />
@@ -267,7 +275,6 @@ export default function Contact() {
                     </div>
                   </div>
 
-                  {/* Response Time */}
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 rounded-xl bg-kiwi-500/[0.08] border border-kiwi-500/[0.1] flex items-center justify-center shrink-0">
                       <Clock size={18} className="text-kiwi-500" />
@@ -279,10 +286,8 @@ export default function Contact() {
                   </div>
                 </div>
 
-                {/* Divider */}
                 <div className="h-px bg-white/[0.04]" />
 
-                {/* Mini trust note */}
                 <p className="text-dark-400 text-xs leading-relaxed italic">
                   Every inquiry is reviewed personally by our founding team. No sales bots, no automated funnels — just a real conversation about your needs.
                 </p>

@@ -56,7 +56,7 @@ export default function Studio() {
               initial="hidden"
               animate={headerInView ? 'visible' : 'hidden'}
               custom={1}
-              className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-6"
+              className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-6"
             >
               {t('studio.title')}
             </motion.h1>
@@ -79,14 +79,13 @@ export default function Studio() {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-2/3 h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
 
         <div ref={philosophyRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 lg:pt-32">
-          {/* Philosophy Intro */}
           <div className="max-w-3xl mb-14 lg:mb-16">
             <motion.h2
               variants={fadeUp}
               initial="hidden"
               animate={philosophyInView ? 'visible' : 'hidden'}
               custom={0}
-              className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white tracking-tight mb-5"
+              className="font-display text-2xl sm:text-3xl lg:text-4xl font-bold text-white tracking-tight mb-5"
             >
               {t('studio.philosophy.title')}
             </motion.h2>
@@ -101,7 +100,6 @@ export default function Studio() {
             </motion.p>
           </div>
 
-          {/* Principles Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 lg:gap-6">
             {principles.map((principle, i) => {
               const Icon = principleIcons[i]
@@ -117,7 +115,7 @@ export default function Studio() {
                   <div className="w-11 h-11 rounded-xl bg-kiwi-500/[0.08] border border-kiwi-500/[0.1] flex items-center justify-center mb-5 group-hover:bg-kiwi-500/[0.12] group-hover:border-kiwi-500/20 transition-all duration-500">
                     <Icon size={20} className="text-kiwi-500" />
                   </div>
-                  <h3 className="text-white text-lg font-bold mb-2.5 tracking-tight">
+                  <h3 className="font-display text-white text-lg font-bold mb-2.5 tracking-tight">
                     {principle.title}
                   </h3>
                   <p className="text-dark-300 text-sm leading-relaxed">
@@ -135,14 +133,13 @@ export default function Studio() {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-2/3 h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
 
         <div ref={deliveryRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 lg:pt-32">
-          {/* Delivery Intro */}
           <div className="max-w-3xl mb-14 lg:mb-16">
             <motion.h2
               variants={fadeUp}
               initial="hidden"
               animate={deliveryInView ? 'visible' : 'hidden'}
               custom={0}
-              className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white tracking-tight mb-5"
+              className="font-display text-2xl sm:text-3xl lg:text-4xl font-bold text-white tracking-tight mb-5"
             >
               {t('studio.delivery.title')}
             </motion.h2>
@@ -157,9 +154,7 @@ export default function Studio() {
             </motion.p>
           </div>
 
-          {/* Timeline */}
           <div className="relative">
-            {/* Vertical line (desktop) */}
             <div className="hidden lg:block absolute left-8 top-0 bottom-0 w-px bg-gradient-to-b from-kiwi-500/20 via-kiwi-500/10 to-transparent" />
 
             <div className="space-y-4 lg:space-y-0">
@@ -172,14 +167,12 @@ export default function Studio() {
                   custom={i + 2}
                   className="relative lg:pl-20 lg:pb-10 last:pb-0"
                 >
-                  {/* Timeline dot */}
                   <div className="hidden lg:flex absolute left-[22px] top-7 w-[13px] h-[13px] rounded-full border-2 border-kiwi-500/40 bg-dark-950 items-center justify-center">
                     <div className="w-1.5 h-1.5 rounded-full bg-kiwi-500/60" />
                   </div>
 
                   <div className="glass rounded-2xl p-6 lg:p-7 glass-hover transition-all duration-500 group">
                     <div className="flex items-start gap-4">
-                      {/* Phase Number (mobile) */}
                       <div className="lg:hidden shrink-0 w-9 h-9 rounded-xl bg-kiwi-500/[0.08] border border-kiwi-500/[0.1] flex items-center justify-center">
                         <span className="text-kiwi-500 text-xs font-bold">{String(i + 1).padStart(2, '0')}</span>
                       </div>
@@ -188,7 +181,7 @@ export default function Studio() {
                           <span className="hidden lg:inline-block text-kiwi-500/40 text-xs font-bold tracking-widest">
                             {String(i + 1).padStart(2, '0')}
                           </span>
-                          <h3 className="text-white text-base lg:text-lg font-bold tracking-tight">
+                          <h3 className="font-display text-white text-base lg:text-lg font-bold tracking-tight">
                             {phase.label}
                           </h3>
                         </div>

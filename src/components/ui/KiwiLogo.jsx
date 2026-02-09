@@ -9,57 +9,80 @@ export default function KiwiLogo({ size = 36, className = '' }) {
       className={className}
     >
       <defs>
-        <linearGradient id="kiwi-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stopColor="#c084fc" />
-          <stop offset="50%" stopColor="#a855f7" />
-          <stop offset="100%" stopColor="#7e22ce" />
-        </linearGradient>
-        <linearGradient id="kiwi-glow" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stopColor="#a855f7" stopOpacity="0.3" />
-          <stop offset="100%" stopColor="#7e22ce" stopOpacity="0.05" />
-        </linearGradient>
+        <radialGradient id="kiwi-flesh" cx="45%" cy="40%" r="55%">
+          <stop offset="0%" stopColor="#A8F060" />
+          <stop offset="60%" stopColor="#7EC845" />
+          <stop offset="100%" stopColor="#4A8C2A" />
+        </radialGradient>
+        <radialGradient id="kiwi-inner" cx="45%" cy="40%" r="55%">
+          <stop offset="0%" stopColor="#C4F288" />
+          <stop offset="100%" stopColor="#8FD45A" />
+        </radialGradient>
       </defs>
 
-      {/* Body — rounded teardrop shape */}
-      <ellipse cx="30" cy="34" rx="18" ry="16" fill="url(#kiwi-grad)" />
-
-      {/* Head — smaller circle overlapping top-right */}
-      <circle cx="42" cy="22" r="11" fill="url(#kiwi-grad)" />
-
-      {/* Eye — the AI spark */}
-      <circle cx="45" cy="20" r="3" fill="#09090b" />
-      <circle cx="46.2" cy="18.8" r="1.2" fill="white" opacity="0.9" />
-
-      {/* Beak — long, thin kiwi bird beak */}
-      <path
-        d="M53 22 L63 20.5 L53 24Z"
-        fill="url(#kiwi-grad)"
-        opacity="0.85"
-      />
-
-      {/* Legs — minimal line strokes */}
-      <line x1="24" y1="48" x2="20" y2="58" stroke="url(#kiwi-grad)" strokeWidth="2.5" strokeLinecap="round" />
-      <line x1="34" y1="48" x2="34" y2="58" stroke="url(#kiwi-grad)" strokeWidth="2.5" strokeLinecap="round" />
-
-      {/* AI circuit accent — subtle tech lines on body */}
-      <path
-        d="M20 30 L26 30 L26 38"
-        stroke="white"
-        strokeWidth="1"
-        opacity="0.12"
-        strokeLinecap="round"
+      {/* Hexagonal frame */}
+      <polygon
+        points="32,4 56.5,18 56.5,46 32,60 7.5,46 7.5,18"
         fill="none"
+        stroke="currentColor"
+        strokeWidth="1.2"
+        opacity="0.25"
       />
-      <circle cx="26" cy="38" r="1.5" fill="white" opacity="0.15" />
-      <path
-        d="M34 28 L34 34 L40 34"
-        stroke="white"
-        strokeWidth="1"
-        opacity="0.12"
-        strokeLinecap="round"
-        fill="none"
-      />
-      <circle cx="34" cy="28" r="1.5" fill="white" opacity="0.15" />
+
+      {/* Kiwi slice — outer ring */}
+      <circle cx="32" cy="32" r="22" fill="#1A2010" />
+      <circle cx="32" cy="32" r="20.5" fill="#2E6818" />
+      <circle cx="32" cy="32" r="18.5" fill="url(#kiwi-flesh)" />
+
+      {/* White separator ring */}
+      <circle cx="32" cy="32" r="13" fill="none" stroke="rgba(255,255,255,0.3)" strokeWidth="0.6" />
+
+      {/* Inner flesh */}
+      <circle cx="32" cy="32" r="12.5" fill="url(#kiwi-inner)" />
+
+      {/* Central core */}
+      <circle cx="32" cy="32" r="4" fill="rgba(255,255,255,0.85)" />
+      <circle cx="32" cy="32" r="1.5" fill="#7EC845" opacity="0.5" />
+
+      {/* Seed/neural lines */}
+      <g stroke="rgba(15,15,30,0.5)" strokeWidth="0.9">
+        <line x1="32" y1="28" x2="32" y2="14" />
+        <line x1="32" y1="36" x2="32" y2="50" />
+        <line x1="35.5" y1="30" x2="48.5" y2="22.5" />
+        <line x1="28.5" y1="34" x2="15.5" y2="41.5" />
+        <line x1="35.5" y1="34" x2="48.5" y2="41.5" />
+        <line x1="28.5" y1="30" x2="15.5" y2="22.5" />
+      </g>
+
+      {/* Data nodes */}
+      <g fill="rgba(15,15,30,0.6)">
+        <circle cx="32" cy="14.5" r="1.3" />
+        <circle cx="32" cy="49.5" r="1.3" />
+        <circle cx="48" cy="23" r="1.3" />
+        <circle cx="16" cy="41" r="1.3" />
+        <circle cx="48" cy="41" r="1.3" />
+        <circle cx="16" cy="23" r="1.3" />
+      </g>
+
+      {/* Circuit traces to hex frame */}
+      <g stroke="#7EC845" strokeWidth="0.8" fill="none" opacity="0.7">
+        <polyline points="32,13.5 32,8 35,5" />
+        <polyline points="49,23 53,20.5 55.5,22" />
+        <polyline points="49,41 53,43.5 55.5,42" />
+        <polyline points="32,50.5 32,56 29,59" />
+        <polyline points="15,41 11,43.5 8.5,42" />
+        <polyline points="15,23 11,20.5 8.5,22" />
+      </g>
+
+      {/* Circuit endpoint dots */}
+      <g fill="#7EC845" opacity="0.8">
+        <circle cx="35" cy="5" r="1.2" />
+        <circle cx="55.5" cy="22" r="1.2" />
+        <circle cx="55.5" cy="42" r="1.2" />
+        <circle cx="29" cy="59" r="1.2" />
+        <circle cx="8.5" cy="42" r="1.2" />
+        <circle cx="8.5" cy="22" r="1.2" />
+      </g>
     </svg>
   )
 }

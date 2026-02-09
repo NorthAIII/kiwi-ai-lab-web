@@ -1,31 +1,31 @@
 @import "tailwindcss";
 
-/* ===== Kiwi AI Lab — Design Tokens (AI Purple Theme) ===== */
+/* ===== Kiwi AI Lab — Design Tokens (Electric Kiwi Theme) ===== */
 @theme {
-  --color-kiwi-50: #faf5ff;
-  --color-kiwi-100: #f3e8ff;
-  --color-kiwi-200: #e9d5ff;
-  --color-kiwi-300: #d8b4fe;
-  --color-kiwi-400: #c084fc;
-  --color-kiwi-500: #a855f7;
-  --color-kiwi-600: #9333ea;
-  --color-kiwi-700: #7e22ce;
-  --color-kiwi-800: #6b21a8;
-  --color-kiwi-900: #581c87;
+  --color-kiwi-50: #f5fce8;
+  --color-kiwi-100: #e8f8c8;
+  --color-kiwi-200: #d4f19d;
+  --color-kiwi-300: #bae66b;
+  --color-kiwi-400: #B4E33D;
+  --color-kiwi-500: #9ACD32;
+  --color-kiwi-600: #7CB342;
+  --color-kiwi-700: #5D8A2F;
+  --color-kiwi-800: #44661F;
+  --color-kiwi-900: #2D4413;
 
-  --color-dark-950: #09090b;
-  --color-dark-900: #0c0c0f;
-  --color-dark-800: #131316;
-  --color-dark-700: #1a1a1f;
-  --color-dark-600: #232329;
-  --color-dark-500: #2e2e36;
-  --color-dark-400: #3f3f48;
-  --color-dark-300: #63636e;
-  --color-dark-200: #8e8e99;
-  --color-dark-100: #b4b4bd;
+  --color-dark-950: #0B0B0F;
+  --color-dark-900: #0E0E13;
+  --color-dark-800: #141418;
+  --color-dark-700: #1C1C21;
+  --color-dark-600: #252529;
+  --color-dark-500: #2E2E34;
+  --color-dark-400: #3F3F47;
+  --color-dark-300: #63636D;
+  --color-dark-200: #8E8E98;
+  --color-dark-100: #B4B4BC;
 
   --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
-  --font-display: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: 'Space Grotesk', 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
 }
 
 /* ===== Base Layer ===== */
@@ -79,12 +79,12 @@
       rgba(255, 255, 255, 0.06) 0%,
       rgba(255, 255, 255, 0.02) 100%
     );
-    border-color: rgba(168, 85, 247, 0.15);
+    border-color: rgba(180, 227, 61, 0.15);
   }
 
-  /* AI Purple gradient text */
+  /* Electric Kiwi gradient text */
   .text-gradient-kiwi {
-    background: linear-gradient(135deg, #c084fc 0%, #a855f7 50%, #7e22ce 100%);
+    background: linear-gradient(135deg, #B4E33D 0%, #9ACD32 50%, #00BFA5 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -92,13 +92,13 @@
 
   /* Glow effects */
   .glow-kiwi {
-    box-shadow: 0 0 20px rgba(168, 85, 247, 0.15),
-                0 0 60px rgba(168, 85, 247, 0.05);
+    box-shadow: 0 0 20px rgba(180, 227, 61, 0.15),
+                0 0 60px rgba(154, 205, 50, 0.05);
   }
 
   .glow-kiwi-strong {
-    box-shadow: 0 0 30px rgba(168, 85, 247, 0.25),
-                0 0 80px rgba(168, 85, 247, 0.1);
+    box-shadow: 0 0 30px rgba(180, 227, 61, 0.25),
+                0 0 80px rgba(154, 205, 50, 0.1);
   }
 
   /* Subtle grain overlay for premium feel */
@@ -111,98 +111,199 @@
     pointer-events: none;
     z-index: 0;
   }
+
+  /* Display font utility */
+  .font-display {
+    font-family: var(--font-display);
+  }
 }
 
-/* ===== n8n Chat Widget — AI Purple Theme Overrides ===== */
-:root {
-  /* n8n chat CSS custom properties */
-  --chat--color-primary: #a855f7;
-  --chat--color-primary-shade-50: #9333ea;
-  --chat--color-primary-shade-100: #7e22ce;
-  --chat--color-secondary: #09090b;
-  --chat--color-secondary-shade-50: #131316;
-  --chat--color-white: #ffffff;
-  --chat--color-light: #faf5ff;
-  --chat--color-light-shade-50: #f3e8ff;
-  --chat--color-medium: #8e8e99;
-  --chat--color-dark: #e9d5ff;
-  --chat--color-disabled: #3f3f48;
-  --chat--color-typing: #8e8e99;
-
-  --chat--border-radius: 1rem;
-  --chat--transition-duration: 0.2s;
-  --chat--window--width: 380px;
-  --chat--window--height: 600px;
-
-  --chat--textarea--height: 48px;
-  --chat--header-height: auto;
-  --chat--header--padding: 20px;
-  --chat--header--background: var(--chat--color-secondary);
-  --chat--header--color: var(--chat--color-white);
-  --chat--heading--font-size: 1.1em;
-  --chat--subtitle--font-size: 0.85em;
-  --chat--subtitle--line-height: 1.4;
-
-  --chat--toggle--background: linear-gradient(135deg, #a855f7, #7e22ce);
-  --chat--toggle--hover--background: linear-gradient(135deg, #9333ea, #6b21a8);
-  --chat--toggle--active--background: linear-gradient(135deg, #7e22ce, #581c87);
-  --chat--toggle--color: #ffffff;
-  --chat--toggle--size: 56px;
-
-  --chat--message--bot--background: var(--chat--color-secondary-shade-50);
-  --chat--message--bot--color: var(--chat--color-dark);
-  --chat--message--user--background: var(--chat--color-primary);
-  --chat--message--user--color: var(--chat--color-white);
-  --chat--message--bot--border: 1px solid rgba(255, 255, 255, 0.06);
-  --chat--message--user--border: none;
-  --chat--message--pre--background: rgba(0, 0, 0, 0.3);
-
-  --chat--input--background: var(--chat--color-secondary);
-  --chat--input--border: 1px solid rgba(255, 255, 255, 0.08);
-  --chat--input--color: var(--chat--color-white);
-  --chat--input--placeholder-color: var(--chat--color-medium);
-
-  --chat--button--background: var(--chat--color-primary);
-  --chat--button--hover--background: var(--chat--color-primary-shade-50);
-  --chat--button--color: var(--chat--color-white);
+/* ===== Kiwi Chat Widget — Electric Kiwi Theme ===== */
+.kiwi-chat-toggle {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+  width: 56px;
+  height: 56px;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #9ACD32, #5D8A2F);
+  color: #fff;
+  box-shadow: 0 8px 25px rgba(154, 205, 50, 0.3);
+  transition: box-shadow 0.3s ease, transform 0.15s ease;
 }
 
-/* n8n window & container dark theme overrides */
-.chat-window {
-  background: var(--color-dark-950) !important;
-  border: 1px solid rgba(255, 255, 255, 0.06) !important;
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6),
-              0 0 30px rgba(168, 85, 247, 0.08) !important;
-  border-radius: 1rem !important;
-  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif !important;
+.kiwi-chat-toggle:hover {
+  box-shadow: 0 8px 30px rgba(154, 205, 50, 0.45);
+  transform: scale(1.05);
 }
 
-.chat-window-toggle {
-  box-shadow: 0 8px 25px rgba(168, 85, 247, 0.3),
-              0 0 0 0 rgba(168, 85, 247, 0) !important;
-  border-radius: 1rem !important;
-  transition: box-shadow 0.3s ease, transform 0.15s ease !important;
+.kiwi-chat-window {
+  position: fixed;
+  bottom: 96px;
+  right: 24px;
+  z-index: 9999;
+  width: 380px;
+  height: 600px;
+  background: #0B0B0F;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 1rem;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6), 0 0 30px rgba(154, 205, 50, 0.08);
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
-.chat-window-toggle:hover {
-  box-shadow: 0 8px 30px rgba(168, 85, 247, 0.45),
-              0 0 0 0 rgba(168, 85, 247, 0) !important;
+.kiwi-chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: #0B0B0F;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
-/* n8n chat messages area */
-.chat-messages-list {
+.kiwi-chat-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #fff;
+}
+
+.kiwi-chat-subtitle {
+  font-size: 0.85em;
+  color: #8E8E98;
+  line-height: 1.4;
+  margin-top: 2px;
+}
+
+.kiwi-chat-close {
+  background: none;
+  border: none;
+  color: #8E8E98;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 6px;
+  transition: color 0.2s;
+}
+
+.kiwi-chat-close:hover {
+  color: #fff;
+}
+
+.kiwi-chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
   scrollbar-width: thin;
-  scrollbar-color: var(--color-dark-500) transparent;
+  scrollbar-color: #2E2E34 transparent;
 }
 
-/* n8n chat input area */
-.chat-input {
-  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif !important;
+.kiwi-chat-msg {
+  display: flex;
 }
 
-/* n8n send button */
-.chat-input-send-button {
-  border-radius: 0.75rem !important;
+.kiwi-chat-msg-user {
+  justify-content: flex-end;
+}
+
+.kiwi-chat-msg-bot {
+  justify-content: flex-start;
+}
+
+.kiwi-chat-bubble {
+  max-width: 80%;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-size: 0.9em;
+  line-height: 1.5;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.kiwi-chat-bubble-bot {
+  background: #141418;
+  color: #d4f19d;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom-left-radius: 4px;
+}
+
+.kiwi-chat-bubble-user {
+  background: #9ACD32;
+  color: #0B0B0F;
+  border-bottom-right-radius: 4px;
+}
+
+.kiwi-chat-input-area {
+  display: flex;
+  gap: 8px;
+  padding: 12px 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  background: #0B0B0F;
+}
+
+.kiwi-chat-input {
+  flex: 1;
+  background: #1C1C21;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.75rem;
+  padding: 10px 14px;
+  color: #ffffff;
+  font-size: 0.9em;
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  outline: none;
+  transition: border-color 0.2s;
+  caret-color: #B4E33D;
+}
+
+.kiwi-chat-input::placeholder {
+  color: #B4B4BC;
+}
+
+.kiwi-chat-input:focus {
+  border-color: rgba(154, 205, 50, 0.4);
+}
+
+.kiwi-chat-send {
+  width: 40px;
+  height: 40px;
+  border-radius: 0.75rem;
+  border: none;
+  background: #9ACD32;
+  color: #0B0B0F;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+  flex-shrink: 0;
+}
+
+.kiwi-chat-send:hover:not(:disabled) {
+  background: #B4E33D;
+}
+
+.kiwi-chat-send:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+  .kiwi-chat-window {
+    width: calc(100vw - 16px);
+    height: calc(100vh - 120px);
+    right: 8px;
+    bottom: 88px;
+  }
 }
 
 /* ===== Utility Layer ===== */
@@ -210,15 +311,52 @@
   /* Fishing / pulse animation for FAB */
   @keyframes fishing-pulse {
     0%, 100% {
-      box-shadow: 0 0 0 0 rgba(168, 85, 247, 0.4);
+      box-shadow: 0 0 0 0 rgba(154, 205, 50, 0.4);
     }
     50% {
-      box-shadow: 0 0 0 12px rgba(168, 85, 247, 0);
+      box-shadow: 0 0 0 12px rgba(154, 205, 50, 0);
     }
   }
 
   .animate-fishing {
     animation: fishing-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  /* Energy flow animation for pipeline */
+  @keyframes energy-flow {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+
+  .animate-energy-flow {
+    background: linear-gradient(
+      90deg,
+      rgba(154, 205, 50, 0.05) 0%,
+      rgba(180, 227, 61, 0.3) 50%,
+      rgba(154, 205, 50, 0.05) 100%
+    );
+    background-size: 200% 100%;
+    animation: energy-flow 3s linear infinite;
+  }
+
+  /* Signal pulse for pipeline dots */
+  @keyframes signal-pulse {
+    0%, 100% {
+      opacity: 0.3;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.4);
+    }
+  }
+
+  .animate-signal {
+    animation: signal-pulse 2s ease-in-out infinite;
   }
 
   /* Page transition */

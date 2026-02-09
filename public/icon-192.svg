@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <radialGradient id="kF" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" style="stop-color:#A8F060" />
+      <stop offset="60%" style="stop-color:#7EC845" />
+      <stop offset="100%" style="stop-color:#4A8C2A" />
+    </radialGradient>
+    <radialGradient id="kC" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" style="stop-color:#C4F288" />
+      <stop offset="100%" style="stop-color:#8FD45A" />
+    </radialGradient>
+    <filter id="g" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="2" result="b" />
+      <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="192" height="192" fill="#0F0F1E" />
+
+  <g transform="translate(96, 96)">
+    <!-- Hex frame -->
+    <polygon points="0,-78 67.5,-39 67.5,39 0,78 -67.5,39 -67.5,-39"
+             fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1.8" />
+
+    <!-- Kiwi -->
+    <circle cx="0" cy="0" r="58" fill="#1A2010" />
+    <circle cx="0" cy="0" r="55" fill="#2E6818" />
+    <circle cx="0" cy="0" r="50" fill="url(#kF)" />
+    <circle cx="0" cy="0" r="35" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1" />
+    <circle cx="0" cy="0" r="34" fill="url(#kC)" />
+    <circle cx="0" cy="0" r="10.5" fill="rgba(255,255,255,0.85)" />
+    <circle cx="0" cy="0" r="4" fill="#7EC845" opacity="0.5" />
+
+    <!-- Seeds -->
+    <g stroke="rgba(10,10,20,0.5)" stroke-width="1.3">
+      <line x1="0" y1="-10.5" x2="0" y2="-48" />
+      <line x1="0" y1="10.5" x2="0" y2="48" />
+      <line x1="9.1" y1="-5.3" x2="41.6" y2="-24" />
+      <line x1="-9.1" y1="5.3" x2="-41.6" y2="24" />
+      <line x1="9.1" y1="5.3" x2="41.6" y2="24" />
+      <line x1="-9.1" y1="-5.3" x2="-41.6" y2="-24" />
+      <line x1="5.3" y1="-9.1" x2="24" y2="-41.6" />
+      <line x1="-5.3" y1="9.1" x2="-24" y2="41.6" />
+      <line x1="5.3" y1="9.1" x2="24" y2="41.6" />
+      <line x1="-5.3" y1="-9.1" x2="-24" y2="-41.6" />
+      <line x1="10.5" y1="0" x2="48" y2="0" />
+      <line x1="-10.5" y1="0" x2="-48" y2="0" />
+    </g>
+
+    <!-- Nodes -->
+    <g fill="rgba(10,10,20,0.6)">
+      <circle cx="0" cy="-46" r="2.8" />
+      <circle cx="0" cy="46" r="2.8" />
+      <circle cx="39.8" cy="-23" r="2.8" />
+      <circle cx="-39.8" cy="23" r="2.8" />
+      <circle cx="39.8" cy="23" r="2.8" />
+      <circle cx="-39.8" cy="-23" r="2.8" />
+      <circle cx="23" cy="-39.8" r="2.8" />
+      <circle cx="-23" cy="39.8" r="2.8" />
+      <circle cx="23" cy="39.8" r="2.8" />
+      <circle cx="-23" cy="-39.8" r="2.8" />
+      <circle cx="46" cy="0" r="2.8" />
+      <circle cx="-46" cy="0" r="2.8" />
+    </g>
+
+    <!-- Circuit -->
+    <g stroke="#7EC845" stroke-width="1.2" fill="none" opacity="0.8" filter="url(#g)">
+      <polyline points="0,-55 0,-66 8,-74" />
+      <polyline points="42,-24 54,-31 60,-27" />
+      <polyline points="42,24 54,31 60,27" />
+      <polyline points="0,55 0,66 -8,74" />
+      <polyline points="-42,24 -54,31 -60,27" />
+      <polyline points="-42,-24 -54,-31 -60,-27" />
+    </g>
+    <g fill="#7EC845" filter="url(#g)">
+      <circle cx="8" cy="-74" r="2.5" />
+      <circle cx="60" cy="-27" r="2.5" />
+      <circle cx="60" cy="27" r="2.5" />
+      <circle cx="-8" cy="74" r="2.5" />
+      <circle cx="-60" cy="27" r="2.5" />
+      <circle cx="-60" cy="-27" r="2.5" />
+    </g>
+  </g>
+</svg>

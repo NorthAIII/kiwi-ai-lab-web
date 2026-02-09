@@ -48,7 +48,7 @@ export default function Approach() {
             initial="hidden"
             animate={isInView ? 'visible' : 'hidden'}
             custom={1}
-            className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-5"
+            className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-5"
           >
             {t('approach.title')}
           </motion.h2>
@@ -76,7 +76,7 @@ export default function Approach() {
               className="group relative glass rounded-3xl p-7 lg:p-8 glass-hover transition-all duration-500"
             >
               {/* Step number watermark */}
-              <span className="absolute top-6 right-7 text-6xl font-black text-white/[0.02] group-hover:text-kiwi-500/[0.05] transition-colors duration-500 select-none">
+              <span className="absolute top-6 right-7 text-6xl font-black text-white/[0.02] group-hover:text-kiwi-500/[0.05] transition-colors duration-500 select-none font-display">
                 {step}
               </span>
 
@@ -86,27 +86,39 @@ export default function Approach() {
               </div>
 
               {/* Content */}
-              <h3 className="text-white text-lg lg:text-xl font-bold mb-3 tracking-tight">
+              <h3 className="font-display text-white text-lg lg:text-xl font-bold mb-3 tracking-tight">
                 {t(`approach.cards.${key}.title`)}
               </h3>
               <p className="text-dark-300 text-sm leading-relaxed">
                 {t(`approach.cards.${key}.description`)}
               </p>
 
-              {/* Bottom accent line */}
-              <div className="absolute bottom-0 inset-x-8 h-[2px] bg-gradient-to-r from-kiwi-500/0 via-kiwi-500/20 to-kiwi-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-full" />
+              {/* Bottom accent line — neon glow */}
+              <div className="absolute bottom-0 inset-x-8 h-[2px] bg-gradient-to-r from-kiwi-500/0 via-kiwi-400/30 to-kiwi-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-full" />
             </motion.div>
           ))}
         </div>
 
-        {/* Connecting line (desktop) */}
+        {/* Energy Pipeline (desktop) */}
         <div className="hidden md:flex items-center justify-center mt-10">
           <div className="flex items-center gap-2">
             {['Discover', 'Architect', 'Deploy'].map((label, i) => (
               <div key={label} className="flex items-center gap-2">
-                <div className="w-2.5 h-2.5 rounded-full bg-kiwi-500/30 border border-kiwi-500/20" />
+                {/* Pipeline node */}
+                <div className="relative w-3 h-3 rounded-full border-2 border-kiwi-500/40 bg-dark-950 flex items-center justify-center">
+                  <div
+                    className="w-1.5 h-1.5 rounded-full bg-kiwi-400 animate-signal"
+                    style={{ animationDelay: `${i * 0.6}s` }}
+                  />
+                </div>
+                {/* Energy flow line */}
                 {i < 2 && (
-                  <div className="w-24 lg:w-32 h-px bg-gradient-to-r from-kiwi-500/20 to-kiwi-500/5" />
+                  <div className="relative w-24 lg:w-32 h-[2px] overflow-hidden rounded-full bg-kiwi-500/10">
+                    <div
+                      className="absolute inset-0 animate-energy-flow"
+                      style={{ animationDelay: `${i * 0.5}s` }}
+                    />
+                  </div>
                 )}
               </div>
             ))}
